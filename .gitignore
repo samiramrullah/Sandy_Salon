@@ -1,0 +1,28 @@
+# Next.js
+.next
+out
+node_modules
+/.pnp
+.pnp.js
+
+# Local server
+.env
+
+# Build cache
+/.next/cache
+
+# Image cache
+/public/images
+
+# ESLint
+/.eslintcache
+
+# IDE
+.idea
+*.iml
+*.iws
+*.ipr
+
+# OS
+.DS_Store
+Thumbs.db
