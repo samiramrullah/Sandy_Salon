@@ -20,7 +20,7 @@ const contact = () => {
                                     GET IN TOUCH WITH US
                                 </h2>
                                 <p className="text-body-color mb-9 text-base leading-relaxed">
-                                    At Sandy's Beauty Salon, we value your feedback and strive to provide the best experience for our clients. We would love to hear from you! Whether you have questions, suggestions, or want to book an appointment, our friendly team is here to assist you. Contact us today and let us help you achieve your desired look and enhance your natural beauty.
+                                At Sandy&apos;s Beauty Salon, we value your feedback and strive to provide the best experience for our clients. We would love to hear from you! Whether you have questions, suggestions, or want to book an appointment, our friendly team is here to assist you. Contact us today and let us help you achieve your desired look and enhance your natural beauty.
                                 </p>
 
                                 <div className="mb-8 flex w-full max-w-[370px]">
