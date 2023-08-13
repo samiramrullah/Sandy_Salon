@@ -1,6 +1,6 @@
 import Head from 'next/head';
 import Image from 'next/image';
-import aboutImg from '../assets/aboutPageImg.jpg'
+import aboutImg from '../public/assets/aboutPageImg.jpg'
 import Navbar from '@/components/Navbar';
 const about = () => {
   return (

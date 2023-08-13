@@ -1,0 +1,6 @@
+/* hero.module.css */
+.hero-container {
+  background-image: url('/assets/hero1.png'); /* Update the path as needed */
+  background-size: cover;
+  background-position: center;
+}

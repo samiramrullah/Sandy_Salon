@@ -5,7 +5,7 @@ import Features from '@/components/Features';
 import PricingPreview from '@/components/PricingPreview';
 import OpeningHour from '@/components/OpeningHour';
 import Footer from '@/components/Footer';
-import CarouselComponent from '@/components/Carousel';
+import Carousel from '@/components/Carousel'
 
 
 
@@ -19,7 +19,7 @@ const index = () => {
       <Navbar />
       
       
-      <CarouselComponent/>
+      <Carousel/>
       
 
       <Features />

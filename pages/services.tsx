@@ -7,7 +7,6 @@ import microNeedling from '../public/assets/microblading-services.jpg'
 import keratin from '../public/assets/Keratin Treatment services.jpg'
 import weftHair from '../public/assets/wet hair extension services.jpg'
 import hairMakeup from '../public/assets/hair and make up services.jpg'
-import Navbar from '@/components/Navbar';
 import Head from 'next/head';
 
 const ServicesList = [
@@ -25,7 +24,7 @@ const ServicesList = [
     {
         Title: "Hydra Facial",
         description: "Revitalize your skin with the invigorating Hydra Facial. This multi-step treatment combines deep cleansing, exfoliation, extraction, and hydration to improve the overall health and appearance of your skin. The Hydra Facial utilizes advanced technology and nourishing serums to address various skin concerns, including fine lines, wrinkles, congested pores, and hyperpigmentation. Experience the ultimate facial rejuvenation as your skin is replenished, hydrated, and radiant. Unveil a revitalized complexion with our luxurious Hydra Facial treatment.",
-        image: hydraFacial
+        image: bbGlowTreatment
     },
     {
         Title: "Micro-Needling",
@@ -55,14 +54,14 @@ const Services = () => {
             <Head>
                 <title>Services</title>
             </Head>
-            <Navbar />
+            
             {ServicesList?.map((treatment, index) => (
                 <ServiceCard
                     key={index}
+                    num={index+1}
                     imageSrc={treatment.image}
                     title={treatment.Title}
                     description={treatment.description}
-                    reverse={index % 2 !== 0}
                 />
             ))}
         </>
