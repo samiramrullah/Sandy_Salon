@@ -1,49 +1,36 @@
 import React from 'react';
 import Navbar from './Navbar';
 
-const ServiceCard = ({ imageSrc, title, description,num }: any) => {
+const ServiceCard = ({ imageSrc, title, description, num, reverse }: any) => {
+  const containerClasses = `bg-gray-100 py-20 ${reverse ? 'flex-row-reverse' : 'flex-row'}`;
 
   return (
-    <div className="relative z-10"> {/* Adjust z-index for the component */}
-      <Navbar />
-      <div className="z-30 relative items-center justify-center w-full h-full overflow-auto">
-        <div className="inset-0 h-screen bg-cover bg-center" style={{ backgroundImage: `url(${imageSrc.src})` }}>
-        </div>
-        <div className="absolute inset-0 z-20 flex items-center justify-center h-screen w-full bg-gray-500 bg-opacity-30"></div>
-        <div className="absolute inset-0 z-30 flex flex-col items-center justify-center">
-          <div className="shadow-2xl rounded-lg w-4/5 h-96 bg-cover bg-center" style={{ backgroundImage: `url(${imageSrc.src})` }}>
-            <div className="grid grid-cols-12 gap-1">
-              <div className="relative my-6 px-8 col-span-12 sm:col-span-12 md:col-span-7 lg:col-span-7 xxl:col-span-7">
-                <div className="border-l-4 border-gray-400 py-20 px-5 mx-2 absolute left-0">
-                  <p className="italic text-white text-xl md:text-4xl lg:text-6xl uppercase text-center font-semibold ">
-                    {title}
-                  </p>
-                </div>
-                <div className="text-gray-950 font-semibold text-xl mb-4">{num}</div>
-                <div className="absolute border-gray-400 border-t-4 bottom-0 py-1 px-4 w-4/5"></div>
-              </div>
-              <div className="col-span-12 sm:col-span-12 md:col-span-5 lg:col-span-5 xxl:col-span-5">
-                <div className="relative bg-pink-900 h-full md:h-96 w-full bg-opacity-50 rounded-tr-lg rounded-br-lg">
-                  <div className="p-8">
-                    <p className="text-white text-xs md:text-sm lg:text-xl mb-4">
-                      {description}
-                    </p>
-                    <div className="bottom-0 absolute p-2 right-0">
-                      <button className="opacity-75 bg-gray-100 hover:bg-pink-900 hover:text-white text-sm font-bold py-2 px-4 rounded inline-flex items-center">
-                        <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M13 9l3 3m0 0l-3 3m3-3H8m13 0a9 9 0 11-18 0 9 9 0 0118 0z" />
-                        </svg>
-                        <span>Contact Us</span>
-                      </button>
-                    </div>
-                  </div>
-                </div>
-              </div>
+    <>
+      <Navbar/>
+      <div className={containerClasses}>
+        <div className="container mx-auto">
+          <h2 className="text-4xl font-bold mb-8">{title}</h2>
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-16">
+            <div>
+              <img src={imageSrc.src} alt="Hydrafacial" className="rounded-lg shadow-lg" />
+            </div>
+            <div>
+              <h3 className="text-2xl font-semibold mb-4">What is {title}?</h3>
+              <p className="text-gray-600 mb-6">
+                {description}
+              </p>
+              <h3 className="text-2xl font-semibold mb-4">Benefits</h3>
+              <ul className="list-disc list-inside text-gray-600">
+                <li>Benefit 1</li>
+                <li>Benefit 2</li>
+                <li>Benefit 3</li>
+                {/* Add more list items */}
+              </ul>
             </div>
           </div>
         </div>
       </div>
-    </div>
+    </>
   );
 };
 

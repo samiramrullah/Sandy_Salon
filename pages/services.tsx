@@ -8,6 +8,7 @@ import keratin from '../public/assets/Keratin Treatment services.jpg'
 import weftHair from '../public/assets/wet hair extension services.jpg'
 import hairMakeup from '../public/assets/hair and make up services.jpg'
 import Head from 'next/head';
+import Footer from '@/components/Footer';
 
 const ServicesList = [
     {
@@ -24,7 +25,7 @@ const ServicesList = [
     {
         Title: "Hydra Facial",
         description: "Revitalize your skin with the invigorating Hydra Facial. This multi-step treatment combines deep cleansing, exfoliation, extraction, and hydration to improve the overall health and appearance of your skin. The Hydra Facial utilizes advanced technology and nourishing serums to address various skin concerns, including fine lines, wrinkles, congested pores, and hyperpigmentation. Experience the ultimate facial rejuvenation as your skin is replenished, hydrated, and radiant. Unveil a revitalized complexion with our luxurious Hydra Facial treatment.",
-        image: bbGlowTreatment
+        image: hydraFacial
     },
     {
         Title: "Micro-Needling",
@@ -62,10 +63,13 @@ const Services = () => {
                     imageSrc={treatment.image}
                     title={treatment.Title}
                     description={treatment.description}
+                    reverse={index % 2 !== 0}
                 />
             ))}
+            <Footer/>
         </>
     );
 };
 
 export default Services;
+
