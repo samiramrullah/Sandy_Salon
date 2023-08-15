@@ -1,6 +1,7 @@
 import React from 'react'
 import Head from 'next/head'
 import Navbar from '@/components/Navbar'
+import Footer from '@/components/Footer'
 const Contact = () => {
     return (
         <>
@@ -8,23 +9,23 @@ const Contact = () => {
                 <title>Contact</title>
             </Head>
             <Navbar />
-            <section className="min-h-screen bg-cover" style={{ backgroundImage: "url('https://img.freepik.com/free-photo/woman-japanese-hairdressers-getting-her-hair-done_23-2149395761.jpg?w=1380&t=st=1692072645~exp=1692073245~hmac=d74553987a2a894de08805635d11a2a18550d12ee2b482dd7ab54a54061abce6')" }}>
+            <section className="min-h-screen bg-cover bg-no-repeat" style={{ backgroundImage: "url('https://img.freepik.com/free-photo/woman-japanese-hairdressers-getting-her-hair-done_23-2149395761.jpg?w=1380&t=st=1692072645~exp=1692073245~hmac=d74553987a2a894de08805635d11a2a18550d12ee2b482dd7ab54a54061abce6')" }}>
                 <div className="flex flex-col min-h-screen ">
                     <div className="container flex flex-col flex-1 px-6 py-12 mx-auto">
                         <div className="flex-1 lg:flex lg:items-center lg:-mx-6">
                             <div className="text-white lg:w-1/2 lg:mx-6">
-                                <h1 className="text-2xl font-semibold capitalize lg:text-3xl">Ultimate design solution</h1>
+                                <h1 className="text-2xl font-semibold capitalize lg:text-3xl">Get In Touch</h1>
 
                                 <p className="max-w-xl mt-6">
                                     At Sandy&apos;s Beauty Salon, we value your feedback and strive to provide the best experience for our clients. We would love to hear from you! Whether you have questions, suggestions, or want to book an appointment, our friendly team is here to assist you. Contact us today and let us help you achieve your desired look and enhance your natural beauty.
                                 </p>
 
-                                <button className="px-8 py-3 mt-6 text-sm font-medium tracking-wide text-white capitalize transition-colors duration-300 transform bg-blue-600 rounded-md hover:bg-blue-500 focus:outline-none focus:ring focus:ring-blue-400 focus:ring-opacity-50">
-                                    get in touch
-                                </button>
+
 
                                 <div className="mt-6 md:mt-8">
-                                    <h3 className="text-gray-300 ">Follow us</h3>
+                                    <button className="px-8 py-3 mt-6 text-sm font-medium tracking-wide text-white capitalize transition-colors duration-300 transform bg-blue-600 rounded-md hover:bg-blue-500 focus:outline-none focus:ring focus:ring-blue-400 focus:ring-opacity-50">
+                                        Get in touch
+                                    </button>
 
                                     <div className="flex mt-4 -mx-1.5 ">
                                         <a className="mx-1.5 text-white transition-colors duration-300 transform hover:text-blue-500" href="#">
@@ -61,7 +62,7 @@ const Contact = () => {
 
                             <div className="mt-8 lg:w-1/2 lg:mx-6">
                                 <div className="w-full px-8 py-10 mx-auto overflow-hidden bg-white shadow-2xl rounded-xl dark:bg-gray-900 lg:max-w-xl">
-                                    <h1 className="text-xl font-medium text-gray-700 dark:text-gray-200">Contact form</h1>
+                                    <h1 className="text-xl font-medium text-gray-700 dark:text-gray-200">Please Find Your way to Us</h1>
 
                                     <p className="mt-2 text-gray-500 dark:text-gray-400">
                                         Ask us everything and we would love
@@ -84,7 +85,7 @@ const Contact = () => {
                     </div>
                 </div>
             </section>
-
+            <Footer />
 
         </>
     )

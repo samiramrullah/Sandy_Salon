@@ -1,5 +1,4 @@
 import React from "react";
-//These are Third party packages for smooth slideshow
 import { Zoom } from "react-slideshow-image";
 import "../node_modules/react-slideshow-image/dist/styles.css";
 
@@ -15,7 +14,7 @@ const Slideshow = () => {
             text: "Experience the Art of Microblading",
         },
         {
-            image: "https://img.freepik.com/free-photo/cosmetologist-doing-face-treatment-applying-face-mask_1303-28042.jpg?w=1380&t=st=1692061832~exp=1692062432~hmac=3a6dc9f6821ebc3bcfd9d050c36fcf0866cc6c68eb90c4781e045a9ec4d016aa",
+            image: "https://img.freepik.com/free-photo/beautician-with-female-client-salon-face-care-routine_23-2148875460.jpg?w=1380&t=st=1692074917~exp=1692075517~hmac=f15b576ae560d8387fb5559e5763e662616dd87ddc0cabaaf2da98cefd3e045c",
             text: "Revitalize Your Skin with Hydra Facial",
         },
         {
