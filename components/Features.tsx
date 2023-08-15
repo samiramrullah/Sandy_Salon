@@ -25,7 +25,7 @@ const Features = () => {
                             <span className="font-semibold text-indigo-300">View Pricing</span>
                         </div>
                     </Link>
-                    <a href="1" className="group relative flex h-48 flex-col overflow-hidden rounded-lg bg-gray-100 shadow-lg md:h-64 xl:h-96">
+                    <Link href={'/pricing'} className="group relative flex h-48 flex-col overflow-hidden rounded-lg bg-gray-100 shadow-lg md:h-64 xl:h-96">
                         <Image src={microBlading} alt="Photoby Minh Pham" layout="fill" objectFit="cover" className="group-hover:scale-110" />
                         <div className="pointer-events-none absolute inset-0 bg-gradient-to-t from-gray-800 to-transparent md:via-transparent"></div>
                         <div className="relative mt-auto p-4">
@@ -33,9 +33,9 @@ const Features = () => {
                             <h2 className="mb-2 text-xl font-semibold text-white transition duration-100">Discover the Magic of BB Glow Treatment</h2>
                             <span className="font-semibold text-indigo-300">View Pricing</span>
                         </div>
-                    </a>
+                    </Link>
 
-                    <a href="1" className="group relative flex h-48 flex-col overflow-hidden rounded-lg bg-gray-100 shadow-lg md:h-64 xl:h-96">
+                    <Link href={'/pricing'} className="group relative flex h-48 flex-col overflow-hidden rounded-lg bg-gray-100 shadow-lg md:h-64 xl:h-96">
                         <Image src={hydraFacial} alt="Photoby Minh Pham" layout="fill" objectFit="cover" className="group-hover:scale-110" />
                         <div className="pointer-events-none absolute inset-0 bg-gradient-to-t from-gray-800 to-transparent md:via-transparent"></div>
                         <div className="relative mt-auto p-4">
@@ -43,10 +43,10 @@ const Features = () => {
                             <h2 className="mb-2 text-xl font-semibold text-white transition duration-100">Experience the Beauty of Microblading</h2>
                             <span className="font-semibold text-indigo-300">View Pricing</span>
                         </div>
-                    </a>
+                    </Link>
 
 
-                    <a href="1" className="group relative flex h-48 flex-col overflow-hidden rounded-lg bg-gray-100 shadow-lg md:h-64 xl:h-96">
+                    <Link href={'/pricing'} className="group relative flex h-48 flex-col overflow-hidden rounded-lg bg-gray-100 shadow-lg md:h-64 xl:h-96">
                         <Image src={microNeedling} alt="Photoby Minh Pham" layout="fill" objectFit="cover" className="group-hover:scale-110" />
                         <div className="pointer-events-none absolute inset-0 bg-gradient-to-t from-gray-800 to-transparent md:via-transparent"></div>
                         <div className="relative mt-auto p-4">
@@ -54,16 +54,10 @@ const Features = () => {
                             <h2 className="mb-2 text-xl font-semibold text-white transition duration-100">Revitalize Your Skin with HydraFacial Treatment</h2>
                             <span className="font-semibold text-indigo-300">View Pricing</span>
                         </div>
-                    </a>
-
-
-                    
-
-                    {/* Add other service cards using the same structure */}
-
+                    </Link>
                 </div>
                 <div className='mt-16 grid gap-4 sm:grid-cols-2 md:gap-6 lg:grid-cols-3 xl:grid-cols-3 xl:gap-8'>
-                    <a href="1" className="group relative flex h-48 flex-col overflow-hidden rounded-lg bg-gray-100 shadow-lg md:h-64 xl:h-96">
+                    <Link href={'/pricing'} className="group relative flex h-48 flex-col overflow-hidden rounded-lg bg-gray-100 shadow-lg md:h-64 xl:h-96">
                         <Image src={keratinTreatment} alt="Photoby Minh Pham" layout="fill" objectFit="cover" className="group-hover:scale-110" />
                         <div className="pointer-events-none absolute inset-0 bg-gradient-to-t from-gray-800 to-transparent md:via-transparent"></div>
                         <div className="relative mt-auto p-4">
@@ -71,8 +65,8 @@ const Features = () => {
                             <h2 className="mb-2 text-xl font-semibold text-white transition duration-100">Achieve Smooth and Shiny Hair with Keratin Treatment</h2>
                             <span className="font-semibold text-indigo-300">View Pricing</span>
                         </div>
-                    </a>
-                    <a href="1" className="group relative flex h-48 flex-col overflow-hidden rounded-lg bg-gray-100 shadow-lg md:h-64 xl:h-96">
+                    </Link>
+                    <Link href={'/pricing'} className="group relative flex h-48 flex-col overflow-hidden rounded-lg bg-gray-100 shadow-lg md:h-64 xl:h-96">
                         <Image src={wefthairExtension} alt="Photoby Minh Pham" layout="fill" objectFit="cover" className="group-hover:scale-110" />
                         <div className="pointer-events-none absolute inset-0 bg-gradient-to-t from-gray-800 to-transparent md:via-transparent"></div>
                         <div className="relative mt-auto p-4">
@@ -80,9 +74,9 @@ const Features = () => {
                             <h2 className="mb-2 text-xl font-semibold text-white transition duration-100">Experience Beautiful Hair  Extensions</h2>
                             <span className="font-semibold text-indigo-300">View Pricing</span>
                         </div>
-                    </a>
+                    </Link>
 
-                    <a href="1" className="group relative flex h-48 flex-col overflow-hidden rounded-lg bg-gray-100 shadow-lg md:h-64 xl:h-96">
+                    <Link href={'/pricing'} className="group relative flex h-48 flex-col overflow-hidden rounded-lg bg-gray-100 shadow-lg md:h-64 xl:h-96">
                         <Image src={hairMakeup} alt="Photoby Minh Pham" layout="fill" objectFit="cover" className="group-hover:scale-110" />
                         <div className="pointer-events-none absolute inset-0 bg-gradient-to-t from-gray-800 to-transparent md:via-transparent"></div>
                         <div className="relative mt-auto p-4">
@@ -90,7 +84,7 @@ const Features = () => {
                             <h2 className="mb-2 text-xl font-semibold text-white transition duration-100">Discover the Art of Hair and Makeup</h2>
                             <span className="font-semibold text-indigo-300">View Pricing</span>
                         </div>
-                    </a>
+                    </Link>
 
                 </div>
             </div>
