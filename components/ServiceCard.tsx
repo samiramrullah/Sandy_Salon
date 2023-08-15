@@ -1,12 +1,22 @@
 import React from 'react';
 import Navbar from './Navbar';
+import { StaticImageData } from 'next/image';
 
-const ServiceCard = ({ imageSrc, title, description, num, reverse }: any) => {
+interface ServiceCardProps {
+  imageSrc: StaticImageData;
+  title: string;
+  description: string;
+  num: number;
+  reverse: boolean;
+  benefits: string[];
+}
+
+const ServiceCard: React.FC<ServiceCardProps> = ({ imageSrc, title, description, num, reverse, benefits }) => {
   const containerClasses = `bg-gray-100 py-20 ${reverse ? 'flex-row-reverse' : 'flex-row'}`;
 
   return (
     <>
-      <Navbar/>
+      <Navbar />
       <div className={containerClasses}>
         <div className="container mx-auto">
           <h2 className="text-4xl font-bold mb-8">{title}</h2>
@@ -16,15 +26,12 @@ const ServiceCard = ({ imageSrc, title, description, num, reverse }: any) => {
             </div>
             <div>
               <h3 className="text-2xl font-semibold mb-4">What is {title}?</h3>
-              <p className="text-gray-600 mb-6">
-                {description}
-              </p>
+              <p className="text-gray-600 mb-6">{description}</p>
               <h3 className="text-2xl font-semibold mb-4">Benefits</h3>
               <ul className="list-disc list-inside text-gray-600">
-                <li>Benefit 1</li>
-                <li>Benefit 2</li>
-                <li>Benefit 3</li>
-                {/* Add more list items */}
+                {benefits.map((benefit, index) => (
+                  <li key={index}>{benefit}</li>
+                ))}
               </ul>
             </div>
           </div>

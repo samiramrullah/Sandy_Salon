@@ -11,16 +11,24 @@ const Slideshow = () => {
             text: "Discover the Magic of BB Glow Treatment",
         },
         {
-            image: "https://hips.hearstapps.com/hmg-prod/images/microblade-lead-1501008186.png?crop=0.8888888888888888xw:1xh;center,top&resize=1200:*",
+            image: "https://img.freepik.com/free-photo/beautiful-woman-with-blue-eyes_155003-3080.jpg?w=1380&t=st=1692061753~exp=1692062353~hmac=6df7751fea7d14716caf799165e65cf5a31605477978097d270e16c2c557d5a4",
             text: "Experience the Art of Microblading",
         },
-        // Add more slides as needed
+        {
+            image: "https://img.freepik.com/free-photo/cosmetologist-doing-face-treatment-applying-face-mask_1303-28042.jpg?w=1380&t=st=1692061832~exp=1692062432~hmac=3a6dc9f6821ebc3bcfd9d050c36fcf0866cc6c68eb90c4781e045a9ec4d016aa",
+            text: "Revitalize Your Skin with Hydra Facial",
+        },
+        {
+            image: "https://img.freepik.com/free-photo/closeup-portrait-beautiful-woman-during-cosmetology-therapy-beauty-salon-professional-dermatology-procedures-lifting-rejuvenation-modern-devices-healthcare_197531-2785.jpg?w=1380&t=st=1692062039~exp=1692062639~hmac=8a923b6a5ee114761c0ce0286b6109249f862949fa62c162ebe57996406921b7",
+            text: "Unlock Your Skin's Potential with Micro-Needling",
+        },
+       
     ];
 
-    //These are custom properties for zoom effect while slide-show
+    
     const zoomInProperties = {
         scale: 1,
-        duration: 5000,
+        duration: 3000,
         transitionDuration: 300,
         infinite: true,
         prevArrow: (

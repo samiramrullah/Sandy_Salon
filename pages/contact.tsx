@@ -1,26 +1,42 @@
-import React from 'react'
+import React, { useState } from 'react'
 import Head from 'next/head'
-const contact = () => {
+import Navbar from '@/components/Navbar'
+const Contact = () => {
+    const [formData, setFormData] = useState({})
+
+    const onChangehandler = (event: any) => {
+        const { name, value } = event.target;
+        setFormData((prevState) => ({
+            ...prevState,
+            [name]: value
+        }))
+    }
+
+    const onSubmitHandler=(e:any)=>{
+        e.preventDefault()
+        console.log('====================================');
+        console.log(formData);
+        console.log('====================================');
+    }
     return (
         <>
             <Head>
                 <title>Contact</title>
             </Head>
+            <Navbar />
             <section className="mt-16 relative z-10 overflow-hidden bg-white py-20 lg:py-[120px]">
                 <div className="container mx-auto">
                     <div className="-mx-4 flex flex-wrap lg:justify-between">
                         <div className="w-full px-4 lg:w-1/2 xl:w-6/12">
                             <div className="mb-12 max-w-[570px] lg:mb-0">
-                                {/* <span className="text-primary mb-4 block text-base font-semibold">
-            Contact Us
-          </span> */}
+
                                 <h2
                                     className="text-dark mb-6 text-[32px] font-bold uppercase sm:text-[40px] lg:text-[36px] xl:text-[40px]"
                                 >
                                     GET IN TOUCH WITH US
                                 </h2>
                                 <p className="text-body-color mb-9 text-base leading-relaxed">
-                                At Sandy&apos;s Beauty Salon, we value your feedback and strive to provide the best experience for our clients. We would love to hear from you! Whether you have questions, suggestions, or want to book an appointment, our friendly team is here to assist you. Contact us today and let us help you achieve your desired look and enhance your natural beauty.
+                                    At Sandy&apos;s Beauty Salon, we value your feedback and strive to provide the best experience for our clients. We would love to hear from you! Whether you have questions, suggestions, or want to book an appointment, our friendly team is here to assist you. Contact us today and let us help you achieve your desired look and enhance your natural beauty.
                                 </p>
 
                                 <div className="mb-8 flex w-full max-w-[370px]">
@@ -95,31 +111,35 @@ const contact = () => {
                         </div>
                         <div className="w-full px-4 lg:w-1/2 xl:w-5/12">
                             <div className="relative rounded-lg bg-white p-8 shadow-lg sm:p-12">
-                                <form>
+                                <form onSubmit={onSubmitHandler}>
                                     <div className="mb-6">
-                                        <input
+                                        <input onChange={onChangehandler}
+                                            name='name'
                                             type="text"
                                             placeholder="Your Name"
                                             className="text-body-color border-[f0f0f0] focus:border-primary w-full rounded border py-3 px-[14px] text-base outline-none focus-visible:shadow-none"
                                         />
                                     </div>
                                     <div className="mb-6">
-                                        <input
+                                        <input onChange={onChangehandler}
                                             type="email"
+                                            name='email'
                                             placeholder="Your Email"
                                             className="text-body-color border-[f0f0f0] focus:border-primary w-full rounded border py-3 px-[14px] text-base outline-none focus-visible:shadow-none"
                                         />
                                     </div>
                                     <div className="mb-6">
-                                        <input
+                                        <input onChange={onChangehandler}
                                             type="text"
+                                            name='phone'
                                             placeholder="Your Phone"
                                             className="text-body-color border-[f0f0f0] focus:border-primary w-full rounded border py-3 px-[14px] text-base outline-none focus-visible:shadow-none"
                                         />
                                     </div>
                                     <div className="mb-6">
-                                        <textarea
+                                        <textarea onChange={onChangehandler}
                                             rows={6}
+                                            name='message'
                                             placeholder="Your Message"
                                             className="text-body-color border-[f0f0f0] focus:border-primary w-full resize-none rounded border py-3 px-[14px] text-base outline-none focus-visible:shadow-none"
                                         ></textarea>
@@ -144,4 +164,4 @@ const contact = () => {
     )
 }
 
-export default contact
+export default Contact
