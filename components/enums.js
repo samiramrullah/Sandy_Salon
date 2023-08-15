@@ -168,10 +168,10 @@ export const HairTreatmentEnum = [
 
     price: "34.36",
   },
-  {
-    serviceName: "Frotzie",
-    price: "Nil",
-  },
+  // {
+  //   serviceName: "Frotzie",
+  //   price: "Nil",
+  // },
 ];
 
 export const hairStylingEnums = [
@@ -204,6 +204,7 @@ export const hairStylingEnums = [
     serviceName: "GHD Curls (from)",
     price: "45",
   },
+  
 ];
 
 export const hairColoringEnums = [
@@ -284,6 +285,14 @@ export const treatmentObjects = [
   {
     serviceName: "Hair Spa",
     price: "40",
+  },
+  {
+    serviceName: "Hair Spa with LED",
+    price: "50",
+  },
+  {
+    serviceName: "Hair Spa with LED",
+    price: "50",
   },
   {
     serviceName: "Hair Spa with LED",
