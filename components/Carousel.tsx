@@ -11,7 +11,7 @@ const Slideshow = () => {
             text: "Discover the Magic of BB Glow Treatment",
         },
         {
-            image: "https://img.freepik.com/free-photo/beautiful-woman-with-blue-eyes_155003-3080.jpg?w=1380&t=st=1692061753~exp=1692062353~hmac=6df7751fea7d14716caf799165e65cf5a31605477978097d270e16c2c557d5a4",
+            image: "https://img.freepik.com/free-photo/portrait-cosmetology-procedures-pretty-young-woman-beauty-salon-dermatology-procedure-botox-eyebrows-hands-blue-glows-work-healthcare-therapy-beauty-rejuvenation_197531-2799.jpg?w=1380&t=st=1692074870~exp=1692075470~hmac=43ca434c787c17428552601c6100ee147074a9977364bfa9b32e6fbcd28ba877",
             text: "Experience the Art of Microblading",
         },
         {
