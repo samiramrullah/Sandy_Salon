@@ -13,9 +13,9 @@ const PagePricingCard = ({ enumList, title }: PricingCardProps) => {
     return (
         <div className="flex flex-col p-6 mx-auto max-w-lg text-center text-gray-900 bg-gray-100 bg-opacity-80 rounded-lg border border-gray-100 shadow-lg dark:border-gray-600 xl:p-8 dark:bg-gray-800 dark:text-white justify-between">
             <h3 className="mb-4 text-2xl font-semibold">{title}</h3>
-            <p className="font-light text-gray-500 sm:text-lg dark:text-gray-400">
+            {/* <p className="font-light text-gray-500 sm:text-lg dark:text-gray-400">
                 Description
-            </p>
+            </p> */}
             <div className="flex flex-col justify-center my-8">
                 <span className="text-gray-500 dark:text-gray-400">Starting From</span>
                 <span className="mr-2 text-5xl font-extrabold">{`$${enumList.reduce(

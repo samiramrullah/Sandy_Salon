@@ -2,6 +2,7 @@ import Head from "next/head";
 import PagePricingCard from "@/components/PagePricingCard";
 import { HairTreatmentEnum, hairColoringEnums, hairStylingEnums, threadingPriceEnum, treatmentObjects } from "@/components/enums";
 import Navbar from "@/components/Navbar";
+import Footer from "@/components/Footer";
 
 function Pricing() {
   return (
@@ -10,7 +11,7 @@ function Pricing() {
         <title>Pricing</title>
       </Head>
       <Navbar />
-      <section className="overflow-hidden pt-20 pb-12 lg:pt-[120px] lg:pb-[90px]">
+      <section className="overflow-hidden pt-20 pb-12 lg:pt-[120px] lg:pb-[90px] bg-gray-300">
         <div className="py-8 px-4 mx-auto max-w-screen-xl lg:py-16 lg:px-6">
           <div className="mx-auto max-w-screen-md text-center mb-8 lg:mb-12">
             <h2 className="mb-4 text-4xl tracking-tight font-extrabold text-gray-900 ">
@@ -29,6 +30,7 @@ function Pricing() {
           </div>
         </div>
       </section>
+      <Footer />
     </>
   );
 }
