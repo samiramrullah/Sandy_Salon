@@ -290,13 +290,13 @@ export const treatmentObjects = [
     serviceName: "Hair Spa with LED",
     price: "50",
   },
-  {
-    serviceName: "Hair Spa with LED",
-    price: "50",
-  },
-  {
-    serviceName: "Hair Spa with LED",
-    price: "50",
-  },
+  // {
+  //   serviceName: "Hair Spa with LED",
+  //   price: "50",
+  // },
+  // {
+  //   serviceName: "Hair Spa with LED",
+  //   price: "50",
+  // },
 ]
 

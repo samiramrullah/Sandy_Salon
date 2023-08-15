@@ -26,7 +26,7 @@ const Navbar = () => {
             <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
                 <Link href={'/'} className="flex items-center">
 
-                    <Image src={logo} alt="Samir" width={64} height={64} />
+                    <Image src={logo} alt="Samir" width={75} height={75} />
 
                 </Link>
                 <div className="flex md:order-2">

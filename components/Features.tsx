@@ -30,7 +30,7 @@ const Features = () => {
                         <div className="pointer-events-none absolute inset-0 bg-gradient-to-t from-gray-800 to-transparent md:via-transparent"></div>
                         <div className="relative mt-auto p-4">
                             {/* <span className="block text-sm text-gray-200">July 19, 2021</span> */}
-                            <h2 className="mb-2 text-xl font-semibold text-white transition duration-100">Discover the Magic of BB Glow Treatment</h2>
+                            <h2 className="mb-2 text-xl font-semibold text-white transition duration-100">Discover the Magic of Micro Blading</h2>
                             <span className="font-semibold text-indigo-300">View Pricing</span>
                         </div>
                     </Link>
