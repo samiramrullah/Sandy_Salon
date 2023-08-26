@@ -61,10 +61,10 @@ const Contact = () => {
                             </div>
 
                             <div className="mt-8 lg:w-1/2 lg:mx-6">
-                                <div className="w-full px-8 py-10 mx-auto overflow-hidden bg-white shadow-2xl rounded-xl dark:bg-gray-900 lg:max-w-xl">
-                                    <h1 className="text-xl font-medium text-gray-700 dark:text-gray-200">Please Find Your way to Us</h1>
+                                <div className="w-full px-8 py-10 mx-auto overflow-hidden bg-white shadow-2xl rounded-xl  lg:max-w-xl">
+                                    <h1 className="text-xl font-medium text-gray-700 ">Please Find Your way to Us</h1>
 
-                                    <p className="mt-2 text-gray-500 dark:text-gray-400">
+                                    <p className="mt-2 text-gray-500 ">
                                         Ask us everything and we would love
                                         to hear from you
                                     </p>

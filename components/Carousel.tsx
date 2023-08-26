@@ -10,15 +10,15 @@ const Slideshow = () => {
             text: "Discover the Magic of BB Glow Treatment",
         },
         {
-            image: "https://img.freepik.com/free-photo/portrait-cosmetology-procedures-pretty-young-woman-beauty-salon-dermatology-procedure-botox-eyebrows-hands-blue-glows-work-healthcare-therapy-beauty-rejuvenation_197531-2799.jpg?w=1380&t=st=1692074870~exp=1692075470~hmac=43ca434c787c17428552601c6100ee147074a9977364bfa9b32e6fbcd28ba877",
+            image: "https://hips.hearstapps.com/hmg-prod/images/microbladingbeforeandafter2-1530791081.jpg?crop=1.00xw:0.753xh;0,0.247xh&resize=1200:*",
             text: "Experience the Art of Microblading",
         },
         {
-            image: "https://img.freepik.com/free-photo/beautician-with-female-client-salon-face-care-routine_23-2148875460.jpg?w=1380&t=st=1692074917~exp=1692075517~hmac=f15b576ae560d8387fb5559e5763e662616dd87ddc0cabaaf2da98cefd3e045c",
+            image: "https://images.everydayhealth.com/images/what-is-a-hydrafacial-722x406.jpg?sfvrsn=86f24a91_4",
             text: "Revitalize Your Skin with Hydra Facial",
         },
         {
-            image: "https://img.freepik.com/free-photo/closeup-portrait-beautiful-woman-during-cosmetology-therapy-beauty-salon-professional-dermatology-procedures-lifting-rejuvenation-modern-devices-healthcare_197531-2785.jpg?w=1380&t=st=1692062039~exp=1692062639~hmac=8a923b6a5ee114761c0ce0286b6109249f862949fa62c162ebe57996406921b7",
+            image: "https://images.ctfassets.net/s6wgpck72cpu/5TnLErFKkmAjwSS4KUW2CW/aa65ee2ac1f958038de5a801fd9475f5/Microneedling_02__1_.png",
             text: "Unlock Your Skin's Potential with Micro-Needling",
         },
        
