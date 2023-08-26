@@ -28,7 +28,7 @@ const Slideshow = () => {
     const zoomInProperties = {
         scale: 1,
         duration: 3000,
-        transitionDuration: 300,
+        transitionDuration: 350,
         infinite: true,
         prevArrow: (
             <div className="flex items-center h-full justify-center left-0 absolute z-10">
