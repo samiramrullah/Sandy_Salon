@@ -1,4 +1,76 @@
-export const threadingPriceEnum = [
+export const THREADINGENUM = [
+  {
+    serviceName: "Eyebrow Threading",
+    price: "15",
+  },
+  {
+    serviceName: "Lip Threading /wax",
+    price: "6",
+  },
+  {
+    serviceName: "Side of face Thread/wax",
+    price: "15",
+  },
+  {
+    serviceName: "Chin or neck Thread/wax",
+    price: "6",
+  },
+  {
+    serviceName: "Lower Lip or extended Chin",
+    price: "5",
+  },
+  {
+    serviceName: "Forehead",
+    price: "5",
+  },
+  {
+    serviceName: "Full Face",
+    price: "45",
+  },
+  {
+    serviceName: "Full Arm",
+    price: "30",
+  },
+  {
+    serviceName: "Half Arm",
+    price: "20",
+  },
+  {
+    serviceName: "Under Arm",
+    price: "15",
+  },
+  {
+    serviceName: "Full Legs Wax",
+    price: "45",
+  },
+  {
+    serviceName: "Half legs Wax",
+    price: "30",
+  },
+  {
+    serviceName: "Back or Front Wax",
+    price: "35",
+  },
+  {
+    serviceName: "G-String Wax",
+    price: "28",
+  },
+  {
+    serviceName: "Full Bikini Wax",
+    price: "45",
+  },
+  {
+    serviceName: "Bikini Line Wax",
+    price: "15",
+  },
+  {
+    serviceName: "Full Body Wax (from)",
+    price: "160",
+  },
+];
+
+
+export const FACIALSENUM = [
   {
     serviceName: "Anti-Aging Facials",
     price: "65",
@@ -7,7 +79,6 @@ export const threadingPriceEnum = [
     serviceName: "Skin Whitening Facials",
     price: "65",
   },
-
   {
     serviceName: "Deep Cleanse Facials",
     price: "60",
@@ -41,151 +112,86 @@ export const threadingPriceEnum = [
     price: "75",
   },
   {
-    serviceName: "De-pigmentation Facials",
+    serviceName: "Depigmentation Facial",
     price: "70",
   },
-]
-const threadingEnums = Object.freeze([
-  {
-    name: "Eyebrow Threading",
-    price: "15",
-  },
-  {
-    name: "Lip Threading / Wax",
-    price: "6",
-  },
-  {
-    name: "Side of Face Thread / Wax",
-    price: "15",
-  },
-  {
-    name: "Chin or Neck Thread / Wax",
-    price: "6",
-  },
-  {
-    name: "Lower Lip or Extended Chin",
-    price: "5",
-  },
-  {
-    name: "Forehead",
-    price: "5",
-  },
-  {
-    name: "Full Face",
-    price: "45",
-  },
-  {
-    name: "Full Arm",
-    price: "30",
-  },
-  {
-    name: "Half Arm",
-    price: "20",
-  },
-  {
-    name: "Under Arm",
-    price: "15",
-  },
-  {
-    name: "Full Legs Wax",
-    price: "45",
-  },
-  {
-    name: "Half Legs Wax",
-    price: "30",
-  },
-  {
-    name: "Back or Front Wax",
-    price: "35",
-  },
-  {
-    name: "G-String Wax",
-    price: "28",
-  },
-  {
-    name: "Full Bikini Wax",
-    price: "45",
-  },
-  {
-    name: "Bikini Line Wax",
-    price: "15",
-  },
-  {
-    name: "Full Body Wax (from)",
-    price: "160",
-  },
-]);
-
-export default threadingEnums;
+];
 
 
-export const HairTreatmentEnum = [
+export const TREATMENTSENUM = [
   {
-    serviceName: "Formal Hair (from)",
+    serviceName: "Microblading",
+    price: "250",
+  },
+  {
+    serviceName: "B. B. Glow Treatments",
+    price: "150",
+  },
+  {
+    serviceName: "Micro Needling",
+    price: "150",
+  },
+  {
+    serviceName: "Hydra Facial",
+    price: "150",
+  },
+  {
+    serviceName: "Keratin Treatment",
+    price: "200",
+  },
+  {
+    serviceName: "Nanoplasty Treatment",
+    price: "200",
+  },
+  {
+    serviceName: "Permanent Straightening",
+    price: "300",
+  },
+  {
+    serviceName: "Hair Spa",
+    price: "40",
+  },
+  {
+    serviceName: "Hair Spa with LED",
+    price: "45",
+  },
+];
+
+
+export const HAIRMAKEUPENUM = [
+  {
+    serviceName: "Formal Hair",
     price: "65",
   },
   {
-    serviceName: "Formal Makeup",
+    serviceName: "Formal Make-up",
     price: "60",
   },
   {
-    serviceName: "Formal Hair & Makeup",
+    serviceName: "Formal Hair & Make-up",
     price: "140",
   },
   {
-    serviceName: "Bridal Makeup (from)",
+    serviceName: "Bridal Make-up",
     price: "80",
   },
-  {
-    serviceName: "Weft Hair 2 Rows",
-    price: "350",
-  },
-  {
-    serviceName: "Weft Hair 3 Rows",
-    price: "450",
-  },
-  {
-    serviceName: "Formal Hair (from)",
-    price: "65",
-  },
-  {
-    serviceName: "Wash and Cut",
-
-    price: "7.64",
-  },
-  {
-    serviceName: "Hangover Ready",
-
-    price: "16.23",
-  },
-  {
-    serviceName: "Shave",
-
-    price: "9.55",
-  },
-  {
-    serviceName: "Black is Forever",
-
-    price: "34.36",
-  },
-  // {
-  //   serviceName: "Frotzie",
-  //   price: "Nil",
-  // },
 ];
 
-export const hairStylingEnums = [
-
+export const HAIRSTYLINGENUM = [
   {
     serviceName: "Ladies Cut (from)",
     price: "40",
   },
   {
-    serviceName: "Mens Cut (from)",
+    serviceName: "Men’s Cut (from)",
     price: "20",
   },
   {
     serviceName: "Kids Cut (from)",
+    price: "20",
+  },
+  {
+    serviceName: "Shampoo & Dry Off",
     price: "20",
   },
   {
@@ -202,26 +208,26 @@ export const hairStylingEnums = [
   },
   {
     serviceName: "GHD Curls (from)",
-    price: "45",
+    price: "",
   },
-  
 ];
 
-export const hairColoringEnums = [
+
+export const HAIRCOLORINGENUM = [
   {
     serviceName: "Henna Application (from)",
-    price: "80",
+    price: "40",
   },
   {
     serviceName: "Wash Extra",
     price: "15",
   },
   {
-    serviceName: "Full Color Short Hair",
+    serviceName: "Full Colour Short Hair (from)",
     price: "70",
   },
   {
-    serviceName: "Full Color Long Hair",
+    serviceName: "Full Colour Long hair (from)",
     price: "90",
   },
   {
@@ -229,11 +235,11 @@ export const hairColoringEnums = [
     price: "60",
   },
   {
-    serviceName: "T-Section foil incl. Toner (from)",
+    serviceName: "T-Section Foil incl Tonner (from)",
     price: "90",
   },
   {
-    serviceName: "Half Head Foils incl. Tonner (from)",
+    serviceName: "Half head Foils incl Tonner (from)",
     price: "130",
   },
   {
@@ -245,58 +251,8 @@ export const hairColoringEnums = [
     price: "40",
   },
   {
-    serviceName: "Semi-Permanent Color (from)",
+    serviceName: "Semi-permanent Colour (from)",
     price: "60",
   },
-]
-
-
-
-
-export const treatmentObjects = [
-  {
-    serviceName: "Micro-blading",
-    price: "250",
-  },
-  {
-    serviceName: "BB Glow Treatments",
-    price: "150",
-  },
-  {
-    serviceName: "Micro Needling",
-    price: "150",
-  },
-  {
-    serviceName: "Hydra Facial",
-    price: "150",
-  },
-  {
-    serviceName: "Keratin Treatment (from)",
-    price: "200",
-  },
-  {
-    serviceName: "Nano Plats Treatment (from)",
-    price: "250",
-  },
-  {
-    serviceName: "Permanent Straightening (from)",
-    price: "300",
-  },
-  {
-    serviceName: "Hair Spa",
-    price: "40",
-  },
-  {
-    serviceName: "Hair Spa with LED",
-    price: "50",
-  },
-  // {
-  //   serviceName: "Hair Spa with LED",
-  //   price: "50",
-  // },
-  // {
-  //   serviceName: "Hair Spa with LED",
-  //   price: "50",
-  // },
-]
-
+];
+ 

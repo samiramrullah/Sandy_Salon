@@ -63,7 +63,7 @@ const Footer = () => {
           </div>
         </div>
 
-        <hr className="h-px my-6 bg-gray-200 border-none dark:bg-gray-700" />
+        <hr className="h-px my-6 bg-gray-200 border-none " />
 
         <div>
           <p className="text-center text-gray-500 ">© Beauty Salon 2023 - All rights reserved</p>

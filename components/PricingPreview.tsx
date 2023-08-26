@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import IndexPricingCard from "./IndexPricingCard";
-import { HairTreatmentEnum, threadingPriceEnum, treatmentObjects } from "../components/enums";
+import { FACIALSENUM, HAIRCOLORINGENUM, HAIRSTYLINGENUM } from "../components/enums";
 
 const PricingPreview = () => {
     const [isClient, setIsClient] = useState(false);
@@ -38,9 +38,9 @@ const PricingPreview = () => {
                     <div></div>
 
                     <div className="grid mt-16 -mx-6 sm:gap-8 grid-cols-3">
-                        <IndexPricingCard enumList={threadingPriceEnum} title="Facial" />
-                        <IndexPricingCard enumList={HairTreatmentEnum} title="Hair Treatment" />
-                        <IndexPricingCard enumList={treatmentObjects} title="Treatment Objects" />
+                        <IndexPricingCard enumList={FACIALSENUM} title="Facial" />
+                        <IndexPricingCard enumList={HAIRSTYLINGENUM} title="Hair Treatment" />
+                        <IndexPricingCard enumList={HAIRCOLORINGENUM} title="Treatment Objects" />
                        
                     </div>
                 </div>
