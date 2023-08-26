@@ -9,7 +9,7 @@ const Contact = () => {
                 <title>Contact</title>
             </Head>
             <Navbar />
-            <section className="min-h-screen bg-cover bg-no-repeat" style={{ backgroundImage: "url('https://img.freepik.com/free-photo/woman-japanese-hairdressers-getting-her-hair-done_23-2149395761.jpg?w=1380&t=st=1692072645~exp=1692073245~hmac=d74553987a2a894de08805635d11a2a18550d12ee2b482dd7ab54a54061abce6')" }}>
+            <section className="min-h-screen bg-center bg-cover bg-no-repeat" style={{ backgroundImage: "url('https://img.freepik.com/free-photo/woman-getting-her-hair-done-japanese-hairdressers_23-2149395781.jpg?w=1380&t=st=1693063556~exp=1693064156~hmac=2db8a92429eca2e66226912b7813296a09a8bb8e083246a6938b8918d5a26bb2')" }}>
                 <div className="flex flex-col min-h-screen ">
                     <div className="container flex flex-col flex-1 px-6 py-12 mx-auto">
                         <div className="flex-1 lg:flex lg:items-center lg:-mx-6">
@@ -69,9 +69,11 @@ const Contact = () => {
                                         to hear from you
                                     </p>
 
+                                    
+
                                     <iframe
                                         title="Google Maps"
-                                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3428.34493870557!2d76.78419437622752!3d30.76489688407646!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390ff282845c404b%3A0xc0844bf7cbdcc6e9!2sPunjab%20Engineering%20College!5e0!3m2!1sen!2sin!4v1692072273831!5m2!1sen!2sin"
+                                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3251.235891691516!2d149.12151757664537!3d-35.424186101292676!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6b164aa0f67fe1f5%3A0x97b7f1250363dd1b!2s87%20Heagney%20Cres%2C%20Chisholm%20ACT%202905%2C%20Australia!5e0!3m2!1sen!2sin!4v1693063374444!5m2!1sen!2sin"
                                         width="100%"
                                         height="450"
                                         style={{ border: "0" }}
