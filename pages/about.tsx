@@ -2,6 +2,7 @@ import Head from 'next/head';
 import Image from 'next/image';
 import aboutImg from '../public/assets/aboutPageImg.jpg'
 import Navbar from '@/components/Navbar';
+import Link from 'next/link';
 const about = () => {
   return (
     <div>
@@ -46,12 +47,12 @@ const about = () => {
               <p className="mb-6 text-base leading-7 text-gray-500 ">
                 Sandy Beauty Salon is dedicated to providing exceptional hair and beauty services to our valued clients. With over 12 years of experience in the industry, we are skilled in creating stunning hairstyles and enhancing natural beauty. Our salon is a haven for busy individuals who rely on our expertise and education to help them look and feel their best.
               </p>
-              <a
-                href="1"
+              <Link
+                href="/contact"
                 className="px-4 py-2 text-gray-100 bg-blue-500 rounded  hover:bg-blue-600"
               >
-                Learn more
-              </a>
+                Contact
+              </Link>
             </div>
           </div>
         </div>
