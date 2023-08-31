@@ -21,10 +21,10 @@ const Slideshow = () => {
             image: "https://images.ctfassets.net/s6wgpck72cpu/5TnLErFKkmAjwSS4KUW2CW/aa65ee2ac1f958038de5a801fd9475f5/Microneedling_02__1_.png",
             text: "Unlock Your Skin's Potential with Micro-Needling",
         },
-       
+
     ];
 
-    
+
     const zoomInProperties = {
         scale: 1,
         duration: 3000,
@@ -49,18 +49,18 @@ const Slideshow = () => {
         <div className="w-full h-screen relative">
             <Zoom {...zoomInProperties}>
                 {slides.map((slide, index) => (
-                    <div key={index} className="flex justify-center md:items-center items-center w-screen h-screen relative">
-                        <img
-                            className="w-screen"
-                            src={slide.image}
-                            alt={`Image ${index}`}
-                        />
+                    <div
+                        key={index}
+                        className="flex justify-center items-center w-screen h-screen relative bg-center bg-cover"
+                        style={{ backgroundImage: `url(${slide.image})` }}
+                    >
                         <h1 className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-center z-10 md:text-6xl text-4xl font-bold text-white">{slide.text}</h1>
                     </div>
                 ))}
             </Zoom>
         </div>
     );
+
 };
 
 export default Slideshow;

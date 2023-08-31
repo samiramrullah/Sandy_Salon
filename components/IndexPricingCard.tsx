@@ -1,3 +1,4 @@
+import Link from 'next/link';
 import React from 'react';
 
 interface EnumItem {
@@ -14,7 +15,7 @@ const IndexPricingCard: React.FC<PricingCardProps> = ({ enumList, title }) => {
     return (
         <div className="h-full px-6 py-4 transition-all duration-300 transform bg-transparent rounded-lg group hover:shadow-lg hover:bg-opacity-50">
             <p className="text-lg text-center font-medium text-blue-700">{title}</p>
-            <p className="mt-4 text-gray-300">description</p> {/* Replace with actual description */}
+            {/* <p className="mt-4 text-gray-300">description</p>  */}
             <div className="mt-8 space-y-8">
                 <div className="flex items-center justify-between">
                     <div className="flex items-center">
@@ -74,9 +75,11 @@ const IndexPricingCard: React.FC<PricingCardProps> = ({ enumList, title }) => {
                 ))}
             </div>
 
-            <button className="w-full px-4 py-2 mt-10 font-medium tracking-wide text-white capitalize transition-colors duration-300 transform bg-blue-500 rounded-md hover:bg-blue-600 focus:outline-none focus:bg-blue-600">
-                Choose plan
-            </button>
+            <Link href={'/pricing'}>
+                <button className="w-full px-4 py-2 mt-10 font-medium tracking-wide text-white capitalize transition-colors duration-300 transform bg-blue-500 rounded-md hover:bg-blue-600 focus:outline-none focus:bg-blue-600">
+                    View More
+                </button>
+            </Link>
         </div>
     );
 };

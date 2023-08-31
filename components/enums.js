@@ -1,4 +1,4 @@
-export const THREADINGENUM = [
+export const THREADINGENUM_Part1 = [
   {
     serviceName: "Eyebrow Threading",
     price: "15",
@@ -31,6 +31,8 @@ export const THREADINGENUM = [
     serviceName: "Full Arm",
     price: "30",
   },
+];
+export const  THREADINGENUM_Part2 = [
   {
     serviceName: "Half Arm",
     price: "20",
@@ -68,6 +70,7 @@ export const THREADINGENUM = [
     price: "160",
   },
 ];
+
 
 
 export const FACIALSENUM = [
@@ -256,3 +259,90 @@ export const HAIRCOLORINGENUM = [
   },
 ];
  
+
+
+// Enums for hero page
+
+export const HAIRCOLORINGHEROSECTIONENUM = [
+  {
+    serviceName: "Henna Application (from)",
+    price: "40",
+  },
+  {
+    serviceName: "Wash Extra",
+    price: "15",
+  },
+  {
+    serviceName: "Full Colour Short Hair (from)",
+    price: "70",
+  },
+  {
+    serviceName: "Full Colour Long hair (from)",
+    price: "90",
+  },
+  {
+    serviceName: "Re-Growth (from)",
+    price: "60",
+  },
+  {
+    serviceName: "T-Section Foil incl Tonner (from)",
+    price: "90",
+  },
+  {
+    serviceName: "Half head Foils incl Tonner (from)",
+    price: "130",
+  },
+  {
+    serviceName: "Full Head Foils (from)",
+    price: "180",
+  },
+  // {
+  //   serviceName: "Tonner (from)",
+  //   price: "40",
+  // },
+  // {
+  //   serviceName: "Semi-permanent Colour (from)",
+  //   price: "60",
+  // },
+];
+
+
+
+export const TREATMENTSHEROSECTIONENUM = [
+  {
+    serviceName: "Microblading",
+    price: "250",
+  },
+  {
+    serviceName: "B. B. Glow Treatments",
+    price: "150",
+  },
+  {
+    serviceName: "Micro Needling",
+    price: "150",
+  },
+  {
+    serviceName: "Hydra Facial",
+    price: "150",
+  },
+  {
+    serviceName: "Keratin Treatment",
+    price: "200",
+  },
+  {
+    serviceName: "Nanoplasty Treatment",
+    price: "200",
+  },
+  {
+    serviceName: "Permanent Straightening",
+    price: "300",
+  },
+  {
+    serviceName: "Hair Spa",
+    price: "40",
+  },
+  // {
+  //   serviceName: "Hair Spa with LED",
+  //   price: "45",
+  // },
+];

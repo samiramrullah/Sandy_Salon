@@ -11,11 +11,8 @@ interface PricingCardProps {
 }
 const PagePricingCard = ({ enumList, title }: PricingCardProps) => {
     return (
-        <div className="flex flex-col p-6 mx-auto max-w-lg text-center text-gray-900 bg-gray-100 bg-opacity-80 rounded-lg border border-gray-100 shadow-lg">
+        <div className="flex flex-col p-6 mx-auto max-w-lg text-center text-gray-900  bg-opacity-80 rounded-lg border border-gray-100 shadow-lg bg-gray-100 h-fit">
             <h3 className="mb-4 text-2xl font-semibold">{title}</h3>
-            {/* <p className="font-light text-gray-500 sm:text-lg dark:text-gray-400">
-                Description
-            </p> */}
             <div className="flex flex-col justify-center my-8">
                 <span className="text-gray-500 ">Starting From</span>
                 <span className="mr-2 text-5xl font-extrabold">{`$${enumList.reduce(
@@ -48,7 +45,7 @@ const PagePricingCard = ({ enumList, title }: PricingCardProps) => {
                     </div>
                 ))}
             </ul>
-            <Link className="text-white bg-primary-600 hover:bg-primary-700 focus:ring-4 focus:ring-primary-200 font-medium rounded-lg text-sm px-5 py-2.5 text-center" href="#">
+            <Link className="text-white bg-blue-400 hover:bg-primary-700 focus:ring-4 focus:ring-primary-200 font-medium rounded-lg text-sm px-5 py-2.5 text-center" href="/contact">
                 Get started
             </Link>
         </div>

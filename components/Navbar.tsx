@@ -25,9 +25,7 @@ const Navbar = () => {
         <nav className={`fixed w-full z-20 top-0 left-0 ${offset < 90 ? 'h-28' : 'opacity-100 border-b'}`} style={blurStyle}>
             <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
                 <Link href={'/'} className="flex items-center">
-
-                    <Image src={logo} alt="Samir" width={75} height={75} />
-
+                    <Image src={logo} alt="Sandy Salon" width={150} height={150} /> {/* Increase width and height */}
                 </Link>
                 <div className="flex md:order-2">
                     <Link href="/contact">
