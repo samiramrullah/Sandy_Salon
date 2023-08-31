@@ -12,22 +12,15 @@ function Pricing() {
         <title>Pricing</title>
       </Head>
       <Navbar />
-      <section
-        className="overflow-hidden h-full pt-20 pb-12 lg:pt-[120px] lg:pb-[90px] bg-gray-300"
-        style={{
-          backgroundImage: "url(https://images.bizbuysell.com/shared/listings/207/2070587/d201478e-aa00-4d36-9c78-efaf50b69904-W768.jpg)",
-          backgroundSize: "cover",
-          backgroundPosition: "center",
-        }}
-      >
+      <section className="overflow-hidden h-full pt-20 pb-12 lg:pt-[120px] lg:pb-[90px] bg-gray-300 bg-cover bg-no-repeat bg-center" style={{ backgroundImage: `url('https://img.freepik.com/free-photo/close-up-details-hairdresser-salon_23-2149205861.jpg?w=1380&t=st=1693496329~exp=1693496929~hmac=a1241efece083579df9747ac9e195a6c9081ce7db8f4522c2c821109eb534eca')` }}>
         <div className="py-8 px-4 mx-auto max-w-screen-xl lg:py-16 lg:px-6">
           <div className="mx-auto max-w-screen-md text-center mb-8 lg:mb-12">
             <h2 className="mb-4 text-4xl tracking-tight font-extrabold text-gray-900 ">
               Explore Our Pricing Options
             </h2>
-            <p className="mb-5 font-light text-gray-500 sm:text-xl">
+            {/* <p className="mb-5 font-light text-gray-500 sm:text-xl">
               Discover our range of services and find the perfect one for you.
-            </p>
+            </p> */}
           </div>
           <div className="space-y-8 lg:grid lg:grid-cols-3 gap-6 lg:gap-10 lg:space-y-0">
             <PagePricingCard enumList={TREATMENTSENUM} title="Skin Treatments" />
