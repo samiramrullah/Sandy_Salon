@@ -18,7 +18,7 @@ const Features = () => {
                 </div>
                 <div className="grid gap-4 sm:grid-cols-2 md:gap-6 lg:grid-cols-3 xl:grid-cols-4 xl:gap-8">
                     <Link href={'/'} className="group relative flex h-48 flex-col overflow-hidden rounded-lg bg-gray-100 shadow-lg md:h-64 xl:h-96">
-                        <img src={bbGlowTreatment.src} alt="BB GlowTreatment"   className="group-hover:scale-110" />
+                        <Image src={bbGlowTreatment} alt="BB GlowTreatment" layout="fill" objectFit="cover" className="group-hover:scale-110" />
                         <div className="pointer-events-none absolute inset-0 bg-gradient-to-t from-gray-800 to-transparent md:via-transparent"></div>
                         <div className="relative mt-auto p-4">
                             <h2 className="mb-2 text-xl font-semibold text-white transition duration-100">Discover the Magic of BB Glow Treatment</h2>
@@ -26,7 +26,7 @@ const Features = () => {
                         </div>
                     </Link>
                     <Link href={'/pricing'} className="group relative flex h-48 flex-col overflow-hidden rounded-lg bg-gray-100 shadow-lg md:h-64 xl:h-96">
-                        <img src={microBlading.src} alt="MicroBlading"   className="group-hover:scale-110" />
+                        <Image src={microBlading} alt="MicroBlading" layout="fill" objectFit="cover" className="group-hover:scale-110" />
                         <div className="pointer-events-none absolute inset-0 bg-gradient-to-t from-gray-800 to-transparent md:via-transparent"></div>
                         <div className="relative mt-auto p-4">
                             {/* <span className="block text-sm text-gray-200">July 19, 2021</span> */}
@@ -36,7 +36,7 @@ const Features = () => {
                     </Link>
 
                     <Link href={'/pricing'} className="group relative flex h-48 flex-col overflow-hidden rounded-lg bg-gray-100 shadow-lg md:h-64 xl:h-96">
-                        <img src={hydraFacial.src} alt="HydraFacial"   className="group-hover:scale-110" />
+                        <Image src={hydraFacial} alt="HydraFacial" layout="fill" objectFit="cover" className="group-hover:scale-110" />
                         <div className="pointer-events-none absolute inset-0 bg-gradient-to-t from-gray-800 to-transparent md:via-transparent"></div>
                         <div className="relative mt-auto p-4">
                             {/* <span className="block text-sm text-gray-200">April 07, 2021</span> */}
@@ -44,8 +44,10 @@ const Features = () => {
                             <span className="font-semibold text-indigo-300">View Pricing</span>
                         </div>
                     </Link>
+
+
                     <Link href={'/pricing'} className="group relative flex h-48 flex-col overflow-hidden rounded-lg bg-gray-100 shadow-lg md:h-64 xl:h-96">
-                        <img src={microNeedling.src} alt="MicroNeedling"   className="group-hover:scale-110" />
+                        <Image src={microNeedling} alt="MicroNeedling" layout="fill" objectFit="cover" className="group-hover:scale-110" />
                         <div className="pointer-events-none absolute inset-0 bg-gradient-to-t from-gray-800 to-transparent md:via-transparent"></div>
                         <div className="relative mt-auto p-4">
                             {/* <span className="block text-sm text-gray-200">March 15, 2021</span> */}
@@ -56,7 +58,7 @@ const Features = () => {
                 </div>
                 <div className='mt-16 grid gap-4 sm:grid-cols-2 md:gap-6 lg:grid-cols-3 xl:grid-cols-3 xl:gap-8'>
                     <Link href={'/pricing'} className="group relative flex h-48 flex-col overflow-hidden rounded-lg bg-gray-100 shadow-lg md:h-64 xl:h-96">
-                        <img src={keratinTreatment.src} alt="Keratin Treatment"   className="group-hover:scale-110" />
+                        <Image src={keratinTreatment} alt="Keratin Treatment" layout="fill" objectFit="cover" className="group-hover:scale-110" />
                         <div className="pointer-events-none absolute inset-0 bg-gradient-to-t from-gray-800 to-transparent md:via-transparent"></div>
                         <div className="relative mt-auto p-4">
                             {/* <span className="block text-sm text-gray-200">January 27, 2021</span> */}
@@ -65,7 +67,7 @@ const Features = () => {
                         </div>
                     </Link>
                     <Link href={'/pricing'} className="group relative flex h-48 flex-col overflow-hidden rounded-lg bg-gray-100 shadow-lg md:h-64 xl:h-96">
-                        <img src={wefthairExtension.src} alt="Wefthair Extension"   className="group-hover:scale-110" />
+                        <Image src={wefthairExtension} alt="Wefthair Extension" layout="fill" objectFit="cover" className="group-hover:scale-110" />
                         <div className="pointer-events-none absolute inset-0 bg-gradient-to-t from-gray-800 to-transparent md:via-transparent"></div>
                         <div className="relative mt-auto p-4">
                             {/* <span className="block text-sm text-gray-200">January 27, 2021</span> */}
@@ -75,7 +77,7 @@ const Features = () => {
                     </Link>
 
                     <Link href={'/pricing'} className="group relative flex h-48 flex-col overflow-hidden rounded-lg bg-gray-100 shadow-lg md:h-64 xl:h-96">
-                        <img src={hairMakeup.src} alt="Hair Makeup"   className="group-hover:scale-110" />
+                        <Image src={hairMakeup} alt="Hair Makeup" layout="fill" objectFit="cover" className="group-hover:scale-110" />
                         <div className="pointer-events-none absolute inset-0 bg-gradient-to-t from-gray-800 to-transparent md:via-transparent"></div>
                         <div className="relative mt-auto p-4">
                             {/* <span className="block text-sm text-gray-200">January 27, 2021</span> */}
