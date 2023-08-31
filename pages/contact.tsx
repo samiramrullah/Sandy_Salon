@@ -9,7 +9,7 @@ const Contact = () => {
                 <title>Contact</title>
             </Head>
             <Navbar />
-            <section className="min-h-screen bg-center bg-cover bg-no-repeat" style={{ backgroundImage: "url('https://img.freepik.com/free-photo/woman-getting-her-hair-done-japanese-hairdressers_23-2149395781.jpg?w=1380&t=st=1693063556~exp=1693064156~hmac=2db8a92429eca2e66226912b7813296a09a8bb8e083246a6938b8918d5a26bb2')" }}>
+            <section className="min-h-screen bg-center bg-cover bg-no-repeat" style={{ backgroundImage: "url('https://img.freepik.com/free-photo/woman-with-makeup-artist-choosing-color-eyeshadow_329181-1925.jpg?w=1380&t=st=1693496940~exp=1693497540~hmac=f92014db767ef0bc43a24c8a2af64aa94174a38e54fb081da45821f0a7b59893')" }}>
                 <div className="flex flex-col min-h-screen ">
                     <div className="container flex flex-col flex-1 px-6 py-12 mx-auto">
                         <div className="flex-1 lg:flex lg:items-center lg:-mx-6">
@@ -19,8 +19,6 @@ const Contact = () => {
                                 <p className="max-w-xl mt-6">
                                     At Sandy&apos;s Beauty Salon, we value your feedback and strive to provide the best experience for our clients. We would love to hear from you! Whether you have questions, suggestions, or want to book an appointment, our friendly team is here to assist you. Contact us today and let us help you achieve your desired look and enhance your natural beauty.
                                 </p>
-
-
 
                                 <div className="mt-6 md:mt-8">
                                     <button className="px-8 py-3 mt-6 text-sm font-medium tracking-wide text-white capitalize transition-colors duration-300 transform bg-blue-600 rounded-md hover:bg-blue-500 focus:outline-none focus:ring focus:ring-blue-400 focus:ring-opacity-50">
@@ -44,7 +42,8 @@ const Contact = () => {
                                             </svg>
                                         </a>
 
-                                        <a className="mx-1.5 text-white transition-colors duration-300 transform hover:text-blue-500" href="#">
+                                        <a className="mx-1.5 text-white transition-colors duration-300 transform hover:text-blue-500" href="https://www.facebook.com/dhillonsandeep27?mibextid=ZbWKwL
+">
                                             <svg className="w-8 h-8" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                                                 <path d="M7 10.2222V13.7778H9.66667V20H13.2222V13.7778H15.8889L16.7778 10.2222H13.2222V8.44444C13.2222 8.2087 13.3159 7.9826 13.4826 7.81591C13.6493 7.64921 13.8754 7.55556 14.1111 7.55556H16.7778V4H14.1111C12.9324 4 11.8019 4.46825 10.9684 5.30175C10.1349 6.13524 9.66667 7.2657 9.66667 8.44444V10.2222H7Z" fill="currentColor" />
                                             </svg>                                        </a>
