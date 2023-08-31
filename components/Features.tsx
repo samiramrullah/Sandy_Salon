@@ -26,7 +26,7 @@ const Features = () => {
                         </div>
                     </Link>
                     <Link href={'/pricing'} className="group relative flex h-48 flex-col overflow-hidden rounded-lg bg-gray-100 shadow-lg md:h-64 xl:h-96">
-                        <img src="https://github.com/samiramrullah/Sandy_Salon/blob/Images/public/assets/microblading.jpg?raw=true" alt="MicroBlading" layout="fill" objectFit="cover" className="group-hover:scale-110" />
+                        <Image src={microBlading} alt="MicroBlading" layout="fill" objectFit="cover" className="group-hover:scale-110" />
                         <div className="pointer-events-none absolute inset-0 bg-gradient-to-t from-gray-800 to-transparent md:via-transparent"></div>
                         <div className="relative mt-auto p-4">
                             {/* <span className="block text-sm text-gray-200">July 19, 2021</span> */}
