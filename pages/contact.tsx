@@ -12,7 +12,7 @@ const Contact = () => {
                 <title>Contact</title>
             </Head>
             <Navbar />
-            <section className="min-h-screen bg-center bg-cover bg-no-repeat" style={{ backgroundImage: "url('https://mybayutcdn.bayut.com/mybayut/wp-content/uploads/Beauty-salons-in-Bur-Dubai-Cover-18-04-2022.jpg')" }}>
+            <section className="min-h-screen bg-center bg-cover bg-no-repeat" style={{ backgroundImage: "url('https://naomisheadmasters.com/wp-content/uploads/2022/07/GettyImages-947995974.jpg')" }}>
                 
                 <div className="flex flex-col min-h-screen ">
                     <div className="container flex flex-col flex-1 px-6 py-12 mx-auto">

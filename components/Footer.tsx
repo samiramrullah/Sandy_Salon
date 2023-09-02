@@ -4,7 +4,7 @@ import logo from '../public/assets/logo.jpg';
 
 const Footer = () => {
   return (
-    <footer className=" ">
+    <footer className="bg-gray-200">
       <div className="container p-6 mx-auto">
         <div className="lg:flex">
           <div className="w-full -mx-6 lg:w-2/5">
@@ -58,7 +58,10 @@ const Footer = () => {
                 <h3 className="text-gray-700 uppercase e">Contact</h3>
                 <span className="block mt-2 text-sm text-gray-600  hover:underline">123 Beauty Street</span>
                 <span className="block mt-2 text-sm text-gray-600  hover:underline">City, Country</span>
-                <span className="block mt-2 text-sm text-gray-600  hover:underline">info@beautysalon.com</span>
+                <a href="mailto:info@beautysalon.com" className="block mt-2 text-sm text-gray-600 hover:underline">
+                  info@beautysalon.com
+                </a>
+
               </div>
             </div>
           </div>
