@@ -18,8 +18,8 @@ const index = () => {
       <Carousel />
        <Features />
     <PricingPreview />
-       {/* <OpeningHour />
-      <Footer /> */}
+        <OpeningHour />
+      <Footer /> 
     </>
   );
 };
