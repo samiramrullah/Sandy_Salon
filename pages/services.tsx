@@ -129,17 +129,19 @@ const Services = () => {
                 <title>Services</title>
             </Head>
 
-            {ServicesList?.map((treatment, index) => (
-                <ServiceCard
-                    key={index}
-                    num={index + 1}
-                    imageSrc={treatment.image}
-                    title={treatment.Title}
-                    description={treatment.description}
-                    reverse={index % 2 !== 0}
-                    benefits={treatment.benefits}
-                />
-            ))}
+            <div>
+                {ServicesList?.map((treatment, index) => (
+                    <ServiceCard
+                        key={index}
+                        num={index + 1}
+                        imageSrc={treatment.image}
+                        title={treatment.Title}
+                        description={treatment.description}
+                        reverse={index % 2 !== 0}
+                        benefits={treatment.benefits}
+                    />
+                ))}
+            </div>
             <Footer />
         </>
     );
