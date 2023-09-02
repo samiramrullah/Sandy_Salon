@@ -49,7 +49,7 @@ const Navbar = () => {
                 <div className={`${isMenuOpen ? 'flex' : 'hidden'} flex-col items-center justify-between w-full md:flex md:w-auto md:order-1`} id="navbar-sticky">
                     <ul className="w-full h-full flex flex-col p-4 md:p-0 mt-4 font-medium border rounded-lg md:flex-row md:space-x-8 md:mt-0 md:border-0">
                         <li>
-                            <Link className="block py-2 pl-3 pr-4 text-gray-600 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 " href="/" passHref>
+                            <Link className="block py-2 pl-3 pr-4  text-gray-600 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 " href="/" passHref>
                                 Home
                             </Link>
                         </li>

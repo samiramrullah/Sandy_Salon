@@ -36,18 +36,18 @@ const Features = () => {
                     </Link>
 
                     <Link href={'/pricing'} className="group relative flex h-48 flex-col overflow-hidden rounded-lg bg-gray-100 shadow-lg md:h-64 xl:h-96">
-                        <Image src={hydraFacial} alt="HydraFacial" layout="fill" objectFit="cover" className="group-hover:scale-110" />
+                        <Image src={microNeedling} alt="HydraFacial" layout="fill" objectFit="cover" className="group-hover:scale-110" />
                         <div className="pointer-events-none absolute inset-0 bg-gradient-to-t from-gray-800 to-transparent md:via-transparent"></div>
                         <div className="relative mt-auto p-4">
                             {/* <span className="block text-sm text-gray-200">April 07, 2021</span> */}
-                            <h2 className="mb-2 text-xl font-semibold text-white transition duration-100">Experience the Beauty of Microblading</h2>
+                            <h2 className="mb-2 text-xl font-semibold text-white transition duration-100">Experience the Beauty of Microneedling</h2>
                             <span className="font-semibold text-indigo-300">View Pricing</span>
                         </div>
                     </Link>
 
 
                     <Link href={'/pricing'} className="group relative flex h-48 flex-col overflow-hidden rounded-lg bg-gray-100 shadow-lg md:h-64 xl:h-96">
-                        <Image src={microNeedling} alt="MicroNeedling" layout="fill" objectFit="cover" className="group-hover:scale-110" />
+                        <Image src={hydraFacial} alt="MicroNeedling" layout="fill" objectFit="cover" className="group-hover:scale-110" />
                         <div className="pointer-events-none absolute inset-0 bg-gradient-to-t from-gray-800 to-transparent md:via-transparent"></div>
                         <div className="relative mt-auto p-4">
                             {/* <span className="block text-sm text-gray-200">March 15, 2021</span> */}

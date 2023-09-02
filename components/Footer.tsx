@@ -56,8 +56,7 @@ const Footer = () => {
 
               <div>
                 <h3 className="text-gray-700 uppercase e">Contact</h3>
-                <span className="block mt-2 text-sm text-gray-600  hover:underline">123 Beauty Street</span>
-                <span className="block mt-2 text-sm text-gray-600  hover:underline">City, Country</span>
+                <a href='https://goo.gl/maps/RTexXEJAcMcyt1TG7' target='sandysalon' className="block mt-2 text-sm text-gray-600  hover:underline">87 heagney cresent, Canberra, ACT,Australia,Australian Capital Territory</a>
                 <a href="mailto:info@beautysalon.com" className="block mt-2 text-sm text-gray-600 hover:underline">
                   info@beautysalon.com
                 </a>
