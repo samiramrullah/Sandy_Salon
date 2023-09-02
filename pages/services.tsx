@@ -1,7 +1,7 @@
 import React from 'react';
 import ServiceCard from '../components/ServiceCard';
 import bbGlowTreatment from '../public/assets/bb-glow-services.jpg';
-import microBlading from '../public/assets/microblading-services.jpg';
+// import microBlading from '../public/assets/microblading-services.jpg';
 import hydraFacial from '../public/assets/hydra facial services.jpg';
 import microNeedling from '../public/assets/Micro needling services.jpg';
 import keratin from '../public/assets/Keratin Treatment services.jpg';
@@ -36,7 +36,7 @@ const ServicesList = [
     {
         Title: "Microblading",
         description: "Transform your eyebrows with the artistry of Microblading. This semi-permanent makeup technique creates natural-looking, fuller brows by meticulously implanting pigment into the skin. Our skilled technicians will craft customized brows that complement your unique features and enhance your facial symmetry. Say goodbye to daily brow maintenance and hello to beautifully defined brows that last. Explore the world of Microblading and wake up to flawless eyebrows every day.",
-        image: microBlading,
+        image: microNeedling,
         benefits: [
             "Create natural-looking, fuller eyebrows",
             "Complement your unique facial features",
