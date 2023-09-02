@@ -21,16 +21,16 @@ const OpeningHour = () => {
   ];
 
   return (
-    <div className='bg-no-repeat bg-cover bg-center' style={{ backgroundImage: "url('https://img.freepik.com/free-photo/curly-female-client-picking-color-hait-toning-beaty-salone_651396-977.jpg?w=1380&t=st=1690871103~exp=1690871703~hmac=be8eb00481ecfcb94a73c92b9b3a89c78158367678ebdf5d08aed49ce74d54d8')" }}>
+    <div className='bg-no-repeat bg-cover bg-center' style={{ backgroundImage: "url('https://indian-retailer.s3.ap-south-1.amazonaws.com/s3fs-public/2022-05/salon.jpg')" }}>
       <div className="mx-auto px-4 py-8 max-w-4xl "  >
         <div className=" shadow-2xl rounded-lg mb-6 tracking-wide" style={{ backgroundColor: colorStyle }} >
           <div className=" p-4 rounded-lg shadow">
-            <h3 className="text-xl font-semibold mb-4 text-center">Opening Hours</h3>
+            <h3 className="text-xl font-extrabold mb-4 text-center">Opening Hours</h3>
             <ul>
               {openingHours.map((item) => (
                 <li key={item.day} className="flex justify-between py-2">
-                  <span className="text-gray-600">{item.day}</span>
-                  <span className="text-gray-800 font-medium">{item.hours}</span>
+                  <span className="text-black font-semibold">{item.day}</span>
+                  <span className="text-black font-medium">{item.hours}</span>
                 </li>
               ))}
             </ul>

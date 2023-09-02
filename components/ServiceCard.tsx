@@ -13,14 +13,14 @@ interface ServiceCardProps {
 
 const ServiceCard: React.FC<ServiceCardProps> = ({ imageSrc, title, description, num, reverse, benefits }) => {
   const containerClasses = `bg-gray-100 py-20 ${reverse ? 'flex-row-reverse' : 'flex-row'}`;
-  const imageContainerClasses = `md:order-${reverse ? '2' : '1'}`;
-  const textContainerClasses = `md:order-${reverse ? '1' : '2'}`;
-
+  const imageContainerClasses = `md:order-${reverse ? '1' : '2'}`;
+  const textContainerClasses = `md:order-${reverse ? '2' : '1'}`;
   return (
     <>
       <Navbar />
       <div className={containerClasses}>
         <div className="container mx-auto">
+          
           <h2 className="text-4xl font-bold ">{title}</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-16">
             <div className={imageContainerClasses}>
