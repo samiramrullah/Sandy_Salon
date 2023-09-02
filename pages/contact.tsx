@@ -3,13 +3,17 @@ import Head from 'next/head'
 import Navbar from '@/components/Navbar'
 import Footer from '@/components/Footer'
 const Contact = () => {
+    const blurStyle = {
+        backgroundColor:'rgba(255, 255, 255, 0.5)',
+    };
     return (
         <>
             <Head>
                 <title>Contact</title>
             </Head>
             <Navbar />
-            <section className="min-h-screen bg-center bg-cover bg-no-repeat" style={{ backgroundImage: "url('https://img.freepik.com/free-photo/woman-with-makeup-artist-choosing-color-eyeshadow_329181-1925.jpg?w=1380&t=st=1693496940~exp=1693497540~hmac=f92014db767ef0bc43a24c8a2af64aa94174a38e54fb081da45821f0a7b59893')" }}>
+            <section className="min-h-screen bg-center bg-cover bg-no-repeat" style={{ backgroundImage: "url('https://mybayutcdn.bayut.com/mybayut/wp-content/uploads/Beauty-salons-in-Bur-Dubai-Cover-18-04-2022.jpg')" }}>
+                
                 <div className="flex flex-col min-h-screen ">
                     <div className="container flex flex-col flex-1 px-6 py-12 mx-auto">
                         <div className="flex-1 lg:flex lg:items-center lg:-mx-6">
@@ -21,7 +25,7 @@ const Contact = () => {
                                 </p>
 
                                 <div className="mt-6 md:mt-8">
-                                    <button className="px-8 py-3 mt-6 text-sm font-medium tracking-wide text-white capitalize transition-colors duration-300 transform bg-blue-600 rounded-md hover:bg-blue-500 focus:outline-none focus:ring focus:ring-blue-400 focus:ring-opacity-50">
+                                    <button className="px-8 py-3 mt-6 text-sm font-medium tracking-wide text-white capitalize transition-colors duration-300 transform bg-blue-600 rounded-md hover:bg-blue-500 ">
                                         Get in touch
                                     </button>
 
@@ -60,22 +64,19 @@ const Contact = () => {
                             </div>
 
                             <div className="mt-8 lg:w-1/2 lg:mx-6">
-                                <div className="w-full px-8 py-10 mx-auto overflow-hidden bg-white shadow-2xl rounded-xl  lg:max-w-xl">
+                                <div className="w-full px-8 py-10 mx-auto overflow-hidden bg-white shadow-2xl rounded-xl  lg:max-w-xl" >
                                     <h1 className="text-xl font-medium text-gray-700 ">Please Find Your way to Us</h1>
 
                                     <p className="mt-2 text-gray-500 ">
                                         Ask us everything and we would love
                                         to hear from you
                                     </p>
-
-                                    
-
-                                    <iframe
+                                    <iframe 
                                         title="Google Maps"
                                         src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3251.235891691516!2d149.12151757664537!3d-35.424186101292676!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6b164aa0f67fe1f5%3A0x97b7f1250363dd1b!2s87%20Heagney%20Cres%2C%20Chisholm%20ACT%202905%2C%20Australia!5e0!3m2!1sen!2sin!4v1693063374444!5m2!1sen!2sin"
                                         width="100%"
                                         height="450"
-                                        style={{ border: "0" }}
+                                        style={{ border: "0"}}
                                         allowFullScreen
                                         loading="lazy"
                                         referrerPolicy="no-referrer-when-downgrade"

@@ -71,7 +71,7 @@ const Features = () => {
                         <div className="pointer-events-none absolute inset-0 bg-gradient-to-t from-gray-800 to-transparent md:via-transparent"></div>
                         <div className="relative mt-auto p-4">
                             {/* <span className="block text-sm text-gray-200">January 27, 2021</span> */}
-                            <h2 className="mb-2 text-xl font-semibold text-white transition duration-100">Experience Beautiful Hair  Extensions</h2>
+                            <h2 className="mb-2 text-xl font-semibold text-white transition duration-100">Experience Beautify of Weft Hair  Extensions</h2>
                             <span className="font-semibold text-indigo-300">View Pricing</span>
                         </div>
                     </Link>

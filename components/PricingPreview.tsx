@@ -19,7 +19,7 @@ const PricingPreview = () => {
                         loop
                     >
                         <source
-                            src="https://v4.cdnpk.net/videvo_files/video/free/video0461/large_watermarked/_import_60e1415eb4e9d7.21575951_FPpreview.mp4"
+                            src="https://cdn.shopify.com/videos/c/vp/806204b9eb8d435fbe44473476ad1a54/806204b9eb8d435fbe44473476ad1a54.HD-1080p-4.8Mbps-14240939.mp4"
                             type="video/mp4"
                         />
                         Sorry, your browser doesn support embedded videos.

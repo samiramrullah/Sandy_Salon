@@ -3,7 +3,7 @@ import ServiceCard from '../components/ServiceCard';
 import bbGlowTreatment from '../public/assets/bb-glow-services.jpg';
 import microBlading from '../public/assets/microblading-services.jpg';
 import hydraFacial from '../public/assets/hydra facial services.jpg';
-import microNeedling from '../public/assets/microblading-services.jpg';
+import microNeedling from '../public/assets/Micro needling services.jpg';
 import keratin from '../public/assets/Keratin Treatment services.jpg';
 import weftHair from '../public/assets/wet hair extension services.jpg';
 import hairMakeup from '../public/assets/hair and make up services.jpg';
@@ -27,6 +27,10 @@ const ServicesList = [
             "Achieve a radiant and even skin tone",
             "Reduce the appearance of fine lines and wrinkles",
             "Enhance hydration and rejuvenation",
+            "Minimize pore size",
+            "Improve skin's elasticity",
+            "Boost collagen production",
+            "Reduce redness and inflammation"
         ],
     },
     {
@@ -37,6 +41,10 @@ const ServicesList = [
             "Create natural-looking, fuller eyebrows",
             "Complement your unique facial features",
             "Eliminate the need for daily brow maintenance",
+            "Enhance eyebrow color",
+            "Define and shape eyebrows",
+            "Improve eyebrow symmetry",
+            "Long-lasting results"
         ],
     },
     {
@@ -47,6 +55,10 @@ const ServicesList = [
             "Deeply cleanse, exfoliate, and hydrate the skin",
             "Address fine lines, wrinkles, and hyperpigmentation",
             "Reveal a revitalized and radiant complexion",
+            "Reduce acne breakouts",
+            "Improve skin texture",
+            "Minimize the appearance of age spots",
+            "Enhance skin's elasticity"
         ],
     },
     {
@@ -57,6 +69,10 @@ const ServicesList = [
             "Stimulate natural collagen and elastin production",
             "Reduce the appearance of acne scars and wrinkles",
             "Improve skin texture, tone, and firmness",
+            "Minimize stretch marks",
+            "Enhance skin's natural glow",
+            "Treat sun damage",
+            "Reduce the appearance of large pores"
         ],
     },
     {
@@ -67,6 +83,10 @@ const ServicesList = [
             "Replenish and strengthen hair strands",
             "Reduce frizz and enhance hair manageability",
             "Enjoy silky, lustrous, and healthy-looking hair",
+            "Extend the life of hair color",
+            "Protect hair from environmental damage",
+            "Reduce styling time",
+            "Suitable for all hair types"
         ],
     },
     {
@@ -77,6 +97,10 @@ const ServicesList = [
             "Add length, volume, and dimension to your hair",
             "Achieve a seamless blend with your natural hair",
             "Create versatile and stunning hairstyle transformations",
+            "Enhance hair's thickness",
+            "Customize hair extension colors",
+            "Experience no damage to natural hair",
+            "Enjoy easy maintenance"
         ],
     },
     {
@@ -87,10 +111,16 @@ const ServicesList = [
             "Receive expertly crafted hairstyles and makeup looks",
             "Enhance your natural features and personal style",
             "Feel confident and beautiful for special occasions",
+            "Long-lasting makeup",
+            "Customize makeup to suit your preferences",
+            "Professional hairstyling for all hair types",
+            "Enjoy a stress-free pampering experience"
         ],
     },
     // ... other services
 ];
+
+
 
 const Services = () => {
     return (
