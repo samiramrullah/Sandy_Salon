@@ -1,6 +1,6 @@
 import React from "react";
 import { Zoom } from "react-slideshow-image";
-import "../node_modules/react-slideshow-image/dist/styles.css";
+
 
 const Slideshow = () => {
     //Array of Images
@@ -27,7 +27,7 @@ const Slideshow = () => {
 
     const zoomInProperties = {
         scale: 1,
-        duration: 3000,
+        duration: 2000,
         transitionDuration: 350,
         infinite: true,
         prevArrow: (

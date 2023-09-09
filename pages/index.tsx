@@ -5,7 +5,8 @@ import PricingPreview from '@/components/PricingPreview';
 import OpeningHour from '@/components/OpeningHour';
 import Footer from '@/components/Footer';
 import Carousel from '@/components/Carousel'
-
+import Testimonial from '@/components/Testimonial';
+import "../node_modules/react-slideshow-image/dist/styles.css";
 
 
 const index = () => {
@@ -16,10 +17,11 @@ const index = () => {
       </Head>
       <Navbar />
       <Carousel />
-       <Features />
-    <PricingPreview />
-        <OpeningHour />
-      <Footer /> 
+      <Features />
+      {/* <PricingPreview /> */}
+      <Testimonial/>
+      <OpeningHour />
+      <Footer />
     </>
   );
 };
