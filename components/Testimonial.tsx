@@ -33,7 +33,7 @@ const Testimonial = () => {
             text: "Tonight after a busy week at work I booked in for a  facial, threading, tint Sandy did a amazing job  was so relaxing and just BEAUTIFUL Sandy salon was nice and clean and toasty warm with the wood fire going. Thankyou so much will definitely be back",
             author: 'Kelly Emblen ',
         },
-        // Add more testimonials as needed
+       
     ];
 
     const settings = {
