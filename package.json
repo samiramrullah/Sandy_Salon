@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "react-scripts build",
+    "build": "next build",
     "export": "next build && next export",
     "start": "next start",
     "lint": "next lint"
@@ -22,6 +22,7 @@
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "react-responsive-carousel": "^3.2.23",
+    "react-scripts": "^5.0.1",
     "react-slick": "^0.29.0",
     "react-slideshow-image": "^4.2.1",
     "slick-carousel": "^1.8.1",
