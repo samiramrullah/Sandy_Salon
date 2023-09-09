@@ -42,7 +42,7 @@ const Testimonial = () => {
         speed: 500,
         slidesToShow: 1, // Number of testimonials to show at a time
         slidesToScroll: 1,
-        autoplay: true,          // Enable autoplay
+        autoplay: true,          
         autoplaySpeed: 5000,     // Set autoplay speed to 5000 milliseconds (5 seconds)
       };
 
