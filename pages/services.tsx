@@ -3,7 +3,7 @@ import ServiceCard from '../components/ServiceCard';
 import bbGlowTreatment from '../public/assets/bb-glow-services.jpg';
 import microBlading from '../public/assets/microblading-services.jpg';
 import hydraFacial from '../public/assets/hydra facial services.jpg';
-import microNeedling from '../public/assets/Micro needling services.jpg';
+import microNeedling from '../public/assets/microneedlingservices.jpg';
 import keratin from '../public/assets/Keratin Treatment services.jpg';
 import weftHair from '../public/assets/wet hair extension services.jpg';
 import hairMakeup from '../public/assets/hair and make up services.jpg';
