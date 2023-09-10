@@ -38,7 +38,7 @@ const PricingPreview = () => {
                     <div></div>
 
                     <div className="grid mt-16 -mx-6 sm:gap-8 grid-cols-1 md:grid-cols-3">
-                        <IndexPricingCard enumList={HAIRCOLORINGHEROSECTIONENUM} title="Facial" />
+                        <IndexPricingCard enumList={HAIRCOLORINGHEROSECTIONENUM} title="Hair Coloring" />
                         <IndexPricingCard enumList={HAIRSTYLINGENUM} title="Hair Treatment" />
                         <IndexPricingCard enumList={TREATMENTSHEROSECTIONENUM} title="Treatment Objects" />
                        

@@ -41,17 +41,17 @@ const Footer = () => {
             <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
               <div>
                 <h3 className="text-gray-700 uppercase e">Services</h3>
-                <li className="block mt-2 text-sm text-gray-600  hover:underline">BB Glow Treatment</li>
-                <li className="block mt-2 text-sm text-gray-600  hover:underline">Microblading</li>
-                <li className="block mt-2 text-sm text-gray-600  hover:underline">Hydra Facial</li>
+                <li className="block mt-2 text-sm text-gray-600  hover:underline cursor-pointer">BB Glow Treatment</li>
+                <li className="block mt-2 text-sm text-gray-600  hover:underline cursor-pointer">Microblading</li>
+                <li className="block mt-2 text-sm text-gray-600  hover:underline cursor-pointer">Hydra Facial</li>
               </div>
 
               <div>
                 {/* <h3 className="text-gray-700 uppercase e">Hair and Makeup</h3> */}
-                <li className="block mt-2 text-sm text-gray-600  hover:underline">Micro-Needling</li>
-                <li className="block mt-2 text-sm text-gray-600  hover:underline">Hair and Makeup</li>
-                <li className="block mt-2 text-sm text-gray-600  hover:underline">Keratin Treatment</li>
-                <li className="block mt-2 text-sm text-gray-600  hover:underline">Weft Hair Extensions</li>
+                <li className="block mt-2 text-sm text-gray-600  hover:underline cursor-pointer">Micro-Needling</li>
+                <li className="block mt-2 text-sm text-gray-600  hover:underline cursor-pointer">Hair and Makeup</li>
+                <li className="block mt-2 text-sm text-gray-600  hover:underline cursor-pointer">Keratin Treatment</li>
+                <li className="block mt-2 text-sm text-gray-600  hover:underline cursor-pointer">Weft Hair Extensions</li>
               </div>
 
               <div>
