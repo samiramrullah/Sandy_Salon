@@ -7,6 +7,8 @@ import Footer from '@/components/Footer';
 import Carousel from '@/components/Carousel'
 import Testimonial from '@/components/Testimonial';
 import "../node_modules/react-slideshow-image/dist/styles.css";
+import '../node_modules/slick-carousel/slick/slick.css'
+import '../node_modules/slick-carousel/slick/slick-theme.css'
 
 
 const index = () => {
@@ -18,7 +20,7 @@ const index = () => {
       <Navbar />
       <Carousel />
       <Features />
-      {/* <PricingPreview /> */}
+      <PricingPreview />
       <Testimonial/>
       <OpeningHour />
       <Footer />

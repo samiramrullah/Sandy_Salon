@@ -74,12 +74,14 @@ const PagePricingCard = ({ enumList, title }: PricingCardProps) => {
                                 clipRule="evenodd"
                             />
                         </svg>
+                        
                         <div className="flex justify-between w-full">
                             <span className="mx-4 text-gray-950">{enumItem.serviceName}</span>
                             <span className="mx-4 text-gray-950">{enumItem.price}</span>
                         </div>
                     </div>
                 ))}
+                
             </ul>
             <Link className="text-white bg-blue-400 hover:bg-blue-500 focus:ring-4 focus:ring-primary-200 font-medium rounded-lg text-sm px-5 py-2.5 text-center" href="/contact">
                 Get started

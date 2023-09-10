@@ -3,7 +3,7 @@ import ServiceCard from '../components/ServiceCard';
 import bbGlowTreatment from '../public/assets/bb-glow-services.jpg';
 import microBlading from '../public/assets/microblading-services.jpg';
 import hydraFacial from '../public/assets/hydra facial services.jpg';
-// import microNeedling from '../public/assets/Micro needling services.jpg';
+import microNeedling from '../public/assets/Micro needling services.jpg';
 import keratin from '../public/assets/Keratin Treatment services.jpg';
 import weftHair from '../public/assets/wet hair extension services.jpg';
 import hairMakeup from '../public/assets/hair and make up services.jpg';
@@ -64,7 +64,7 @@ const ServicesList = [
     {
         Title: "Micro-Needling",
         description: "Unlock the potential of your skin with Micro-Needling, a collagen-inducing therapy that stimulates your skin's natural healing process. This minimally invasive treatment involves creating controlled micro-injuries to trigger the production of collagen and elastin. Micro-Needling effectively reduces the appearance of acne scars, fine lines, and wrinkles, while improving skin texture and tone. Restore your skin's youthful vitality and achieve a smoother, more radiant complexion with our advanced Micro-Needling treatments.",
-        image: microBlading,
+        image: microNeedling,
         benefits: [
             "Stimulate natural collagen and elastin production",
             "Reduce the appearance of acne scars and wrinkles",

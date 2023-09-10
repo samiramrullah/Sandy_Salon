@@ -1,10 +1,9 @@
 import Head from "next/head";
 import PagePricingCard from "@/components/PagePricingCard";
-import { THREADINGENUM_Part1, THREADINGENUM_Part2, FACIALSENUM, TREATMENTSENUM, HAIRSTYLINGENUM, HAIRCOLORINGENUM } from "@/components/enums";
+import { THREADINGENUM, FACIALSENUM, TREATMENTSENUM, HAIRSTYLINGENUM, HAIRCOLORINGENUM ,FULL_SERVICES} from "@/components/enums";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import pricingPageBg from '../public/assets/pricingpage.jpg' 
-import Link from "next/link";
 
 function Pricing() {
   return (
@@ -27,9 +26,9 @@ function Pricing() {
           <div className="space-y-8 lg:grid lg:grid-cols-3 gap-6 lg:gap-10 lg:space-y-0">
             <PagePricingCard enumList={TREATMENTSENUM} title="Skin Treatments" />
             <PagePricingCard enumList={HAIRSTYLINGENUM} title="Hair Styling Services" />
-            <PagePricingCard enumList={THREADINGENUM_Part1} title="Threading Services" />
+            <PagePricingCard enumList={FULL_SERVICES} title="Full Threading Services" />
+            <PagePricingCard enumList={THREADINGENUM} title="Threading Services" />
             <PagePricingCard enumList={HAIRCOLORINGENUM} title="Hair Coloring Options" />
-            <PagePricingCard enumList={THREADINGENUM_Part2} title="Threading Services" />
             <PagePricingCard enumList={FACIALSENUM} title="Facial Treatments" />
           </div>
         </div>

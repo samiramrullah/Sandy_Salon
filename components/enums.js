@@ -1,4 +1,4 @@
-export const THREADINGENUM_Part1 = [
+export const THREADINGENUM = [
   {
     serviceName: "Eyebrow Threading",
     price: "15",
@@ -24,15 +24,9 @@ export const THREADINGENUM_Part1 = [
     price: "5",
   },
   {
-    serviceName: "Full Face",
-    price: "45",
-  },
-  {
     serviceName: "Full Arm",
     price: "30",
   },
-];
-export const  THREADINGENUM_Part2 = [
   {
     serviceName: "Half Arm",
     price: "20",
@@ -42,28 +36,39 @@ export const  THREADINGENUM_Part2 = [
     price: "15",
   },
   {
-    serviceName: "Full Legs Wax",
-    price: "45",
-  },
-  {
     serviceName: "Half legs Wax",
     price: "30",
-  },
-  {
-    serviceName: "Back or Front Wax",
-    price: "35",
   },
   {
     serviceName: "G-String Wax",
     price: "28",
   },
   {
-    serviceName: "Full Bikini Wax",
+    serviceName: "Bikini Line Wax",
+    price: "15",
+  },
+];
+
+export const FULL_SERVICES = [
+  {
+    serviceName: "Full Face",
     price: "45",
   },
   {
-    serviceName: "Bikini Line Wax",
-    price: "15",
+    serviceName: "Full Arm",
+    price: "30",
+  },
+  {
+    serviceName: "Full Legs Wax",
+    price: "45",
+  },
+  {
+    serviceName: "Back or Front Wax",
+    price: "35",
+  },
+  {
+    serviceName: "Full Bikini Wax",
+    price: "45",
   },
   {
     serviceName: "Full Body Wax (from)",

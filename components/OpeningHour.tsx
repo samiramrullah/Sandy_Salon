@@ -11,13 +11,13 @@ export const colorStyle = `rgba(${redValue}, ${greenValue}, ${blueValue}, ${alph
 
 const OpeningHour = () => {
   const openingHours = [
+    { day: 'Sunday', hours: 'Closed' },
     { day: 'Monday', hours: 'Closed' },
-    { day: 'Tuesday', hours: '12:00 - 20:30' },
+    { day: 'Tuesday', hours: '10:00 - 18:00' },
     { day: 'Wednesday', hours: '11:00 - 20:00' },
-    { day: 'Thursday', hours: '12:00 - 20:30' },
-    { day: 'Friday', hours: '11:00 - 20:30' },
-    { day: 'Saturday', hours: '11:00 - 19:30' },
-    { day: 'Sunday', hours: '12:00 - 19:00' },
+    { day: 'Thursday', hours: '10:00 - 18:00' },
+    { day: 'Friday', hours: '10:00 - 19:00' },
+    { day: 'Saturday', hours: '11:00 - 19:00' },
   ];
 
   return (
