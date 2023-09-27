@@ -9,12 +9,12 @@ const Slideshow = () => {
     // Array of Images
     const slides = [
         {
-            image: img1.src,
+            image: img2.src,
             text: "Discover the Magic of BB Glow Treatment",
         },
         {
             image:
-                img2.src,
+                img1.src,
             text: "Experience the Art of Microblading",
         },
         {
