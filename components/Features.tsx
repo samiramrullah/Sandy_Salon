@@ -8,6 +8,7 @@ import microNeedling from '../public/assets/micro needling.png';
 import keratinTreatment from '../public/assets/keratin Treatment.png';
 import wefthairExtension from '../public/assets/Weft hair Extension.png';
 import hairMakeup from '../public/assets/hair and makeup.png';
+import threadingFeature from '../public/assets/threadingFeatures.jpg'
 
 const Features = () => {
     return (
@@ -55,8 +56,9 @@ const Features = () => {
                             <span className="font-semibold text-indigo-300">View Pricing</span>
                         </div>
                     </Link>
-                </div>
-                <div className='mt-16 grid gap-4 sm:grid-cols-2 md:gap-6 lg:grid-cols-3 xl:grid-cols-3 xl:gap-8'>
+
+
+
                     <Link href={'/pricing'} className="group relative flex h-48 flex-col overflow-hidden rounded-lg bg-gray-100 shadow-lg md:h-64 xl:h-96">
                         <Image src={keratinTreatment} alt="Keratin Treatment" layout="fill" objectFit="cover" className="group-hover:scale-110" />
                         <div className="pointer-events-none absolute inset-0 bg-gradient-to-t from-gray-800 to-transparent md:via-transparent"></div>
@@ -85,6 +87,19 @@ const Features = () => {
                             <span className="font-semibold text-indigo-300">View Pricing</span>
                         </div>
                     </Link>
+
+                    <Link href={'/pricing'} className="group relative flex h-48 flex-col overflow-hidden rounded-lg bg-gray-100 shadow-lg md:h-64 xl:h-96">
+                        <Image src={threadingFeature} alt="Hair Makeup" layout="fill" objectFit="cover" className="group-hover:scale-110" />
+                        <div className="pointer-events-none absolute inset-0 bg-gradient-to-t from-gray-800 to-transparent md:via-transparent"></div>
+                        <div className="relative mt-auto p-4">
+                            {/* <span className="block text-sm text-gray-200">January 27, 2021</span> */}
+                            <h2 className="mb-2 text-xl font-semibold text-white transition duration-100">Discover the Art of Threading</h2>
+                            <span className="font-semibold text-indigo-300">View Pricing</span>
+                        </div>
+                    </Link>
+                </div>
+                <div className='mt-16 grid gap-4 sm:grid-cols-2 md:gap-6 lg:grid-cols-3 xl:grid-cols-3 xl:gap-8'>
+                    
 
                 </div>
             </div>
