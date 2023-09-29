@@ -2,6 +2,7 @@ import React from 'react'
 import Head from 'next/head'
 import Navbar from '@/components/Navbar'
 import Footer from '@/components/Footer'
+import contactBg from '../public/assets/contactusbg.jpg'
 const Contact = () => {
     const blurStyle = {
         backgroundColor: 'rgba(255, 255, 255, 0.5)',
@@ -12,7 +13,7 @@ const Contact = () => {
                 <title>Contact</title>
             </Head>
             <Navbar />
-            <section className="min-h-screen bg-center bg-cover bg-no-repeat" style={{ backgroundImage: "url('https://img.freepik.com/free-photo/makeup-artist-applying-makeup-by-brush_329181-1926.jpg?w=1380&t=st=1695978122~exp=1695978722~hmac=6df81d877640f9b4e41123418d6bc4edaafce90e13e65da655a1425b802f555c')" }}>
+            <section className="min-h-screen bg-center bg-cover bg-no-repeat" style={{ backgroundImage: `url(${contactBg.src})` }}>
 
                 <div className="flex flex-col min-h-screen ">
                     <div className="container flex flex-col flex-1 px-6 py-12 mx-auto">
