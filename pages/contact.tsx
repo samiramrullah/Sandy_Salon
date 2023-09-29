@@ -12,7 +12,7 @@ const Contact = () => {
                 <title>Contact</title>
             </Head>
             <Navbar />
-            <section className="min-h-screen bg-center bg-cover bg-no-repeat" style={{ backgroundImage: "url('https://naomisheadmasters.com/wp-content/uploads/2022/07/GettyImages-947995974.jpg')" }}>
+            <section className="min-h-screen bg-center bg-cover bg-no-repeat" style={{ backgroundImage: "url('https://img.freepik.com/free-photo/makeup-artist-applying-makeup-by-brush_329181-1926.jpg?w=1380&t=st=1695978122~exp=1695978722~hmac=6df81d877640f9b4e41123418d6bc4edaafce90e13e65da655a1425b802f555c')" }}>
 
                 <div className="flex flex-col min-h-screen ">
                     <div className="container flex flex-col flex-1 px-6 py-12 mx-auto">
