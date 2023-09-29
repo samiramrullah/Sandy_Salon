@@ -98,10 +98,7 @@ const Features = () => {
                         </div>
                     </Link>
                 </div>
-                <div className='mt-16 grid gap-4 sm:grid-cols-2 md:gap-6 lg:grid-cols-3 xl:grid-cols-3 xl:gap-8'>
-                    
-
-                </div>
+                
             </div>
         </div>
     );

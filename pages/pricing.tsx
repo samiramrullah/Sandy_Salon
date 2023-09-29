@@ -11,7 +11,7 @@ const Pricing: React.FC = () => {
     <>
       <Navbar />
       <section
-        className="min-h-screen bg-cover bg-no-repeat bg-center"
+        className="min-h-screen bg-cover bg-no-repeat bg-center mt-8"
         // style={{ backgroundImage: `url(${pricingPageBg.src})` }}
       >
         <div className="py-16 lg:py-20">
@@ -24,7 +24,7 @@ const Pricing: React.FC = () => {
               <PagePricingCard enumList={HAIRSTYLINGENUM} title="Hair Styling Services" />
               <PagePricingCard enumList={FULL_SERVICES} title="Full Threading Services" />
               <PagePricingCard enumList={THREADINGENUM} title="Threading Services" />
-              <PagePricingCard enumList={HAIRCOLORINGENUM} title="Hair Coloring Options" />
+              <PagePricingCard enumList={HAIRCOLORINGENUM} title="Hair Coloring" />
               <PagePricingCard enumList={FACIALSENUM} title="Facial Treatments" />
             </div>
           </div>

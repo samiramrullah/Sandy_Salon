@@ -129,7 +129,7 @@ const Services = () => {
                 <title>Services</title>
             </Head>
 
-            <div>
+            <div className=''>
                 {ServicesList?.map((treatment, index) => (
                     <ServiceCard
                         key={index}
