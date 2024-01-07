@@ -9,14 +9,15 @@ import weftHair from '../public/assets/wet hair extension services.jpg';
 import hairMakeup from '../public/assets/hair and make up services.jpg';
 import Head from 'next/head';
 import Footer from '@/components/Footer';
-import { StaticImageData } from 'next/image';
+import Navbar from '@/components/Navbar';
+// import { StaticImageData } from 'next/image';
 
-interface Benefit {
-    Title: string;
-    description: string;
-    image: StaticImageData;
-    benefits: string[];
-}
+// interface Benefit {
+//     Title: string;
+//     description: string;
+//     image: StaticImageData;
+//     benefits: string[];
+// }
 
 const ServicesList = [
     {
@@ -128,6 +129,7 @@ const Services = () => {
             <Head>
                 <title>Services</title>
             </Head>
+            <Navbar/>
 
             <div className=''>
                 {ServicesList?.map((treatment, index) => (

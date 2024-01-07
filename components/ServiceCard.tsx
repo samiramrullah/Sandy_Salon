@@ -1,5 +1,4 @@
 import React from 'react';
-import Navbar from './Navbar';
 import { StaticImageData } from 'next/image';
 
 interface ServiceCardProps {
@@ -17,7 +16,7 @@ const ServiceCard: React.FC<ServiceCardProps> = ({ imageSrc, title, description,
   const textContainerClasses = `md:order-${reverse ? '1' : '2'}`;
   return (
     <>
-      <Navbar />
+      
       <div className={containerClasses}>
         <div className="container mx-auto">
           
