@@ -22,14 +22,14 @@ const Navbar = () => {
     };
 
     return (
-        <nav className={`fixed w-full z-20 top-0 left-0  ${offset < 90 ? 'h-28' : 'opacity-100 border-b'}`} style={blurStyle}>
+        <nav className={`fixed w-full z-20 top-0 left-0  ${offset < 90 ? 'h-28 ' : 'opacity-100 border-b'}`} style={blurStyle}>
             <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
                 <Link href={'/'} className="flex items-center">
                     <Image src={logo} alt="Sandy Salon" width={150} height={150} /> {/* Increase width and height */}
                 </Link>
                 <div className="flex md:order-2">
                     <Link href="/contact">
-                        <button className="text-white bg-blue-500 hover:bg-blue-600 focus:ring-4 focus:outline-none font-medium rounded-lg text-sm px-4 py-2 text-center mr-3 md:mr-0">
+                        <button className="text-black bg-gray-200 transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-150  duration-300 focus:ring-4 focus:outline-none font-medium rounded-lg text-sm px-4 py-2 text-center mr-3 md:mr-0">
                             Contact
                         </button>
                     </Link>
@@ -47,24 +47,24 @@ const Navbar = () => {
                     </button>
                 </div>
                 <div className={`${isMenuOpen ? 'flex backdrop-blur-md text-base hover:text-blue-600 ' : 'hidden'} flex-col items-center justify-between w-full md:flex md:w-auto md:order-1`} id="navbar-sticky">
-                    <ul className="w-full h-full flex flex-col p-4 md:p-0 mt-4 font-medium border rounded-lg md:flex-row md:space-x-8 md:mt-0 md:border-0">
+                    <ul className={`w-full h-full flex flex-col p-4 md:p-0 mt-4 font-medium border rounded-lg md:flex-row md:space-x-8 md:mt-0 md:border-0 uppercase ${offset < 90 ? 'text-black' : 'uppercase'}`}>
                         <li>
-                            <Link className="block py-2 pl-3 pr-4  text-gray-600 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 " href="/" passHref>
+                            <Link className="block py-2 pl-3 pr-4 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-150  duration-300 " href="/" passHref>
                                 Home
                             </Link>
                         </li>
                         <li>
-                            <Link className="block py-2 pl-3 pr-4 text-gray-600 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 " href="/about" passHref>
+                            <Link className="block py-2 pl-3 pr-4  rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-150  duration-300" href="/about" passHref>
                                 About
                             </Link>
                         </li>
                         <li>
-                            <Link className="block py-2 pl-3 pr-4 text-gray-600 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 " href="/services" passHref>
+                            <Link className="block py-2 pl-3 pr-4  rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-150  duration-300" href="/services" passHref>
                                 Services
                             </Link>
                         </li>
                         <li>
-                            <Link className="block py-2 pl-3 pr-4 text-gray-600 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 " href="/pricing" passHref>
+                            <Link className="block py-2 pl-3 pr-4  rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-150  duration-300" href="/pricing" passHref>
                                 Pricing
                             </Link>
                         </li>

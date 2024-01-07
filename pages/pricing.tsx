@@ -11,13 +11,13 @@ const Pricing: React.FC = () => {
     <>
       <Navbar />
       <section
-        className="min-h-screen bg-cover bg-no-repeat bg-center mt-8"
-        // style={{ backgroundImage: `url(${pricingPageBg.src})` }}
+        className="min-h-screen bg-cover bg-no-repeat bg-center mt-11 mb-10"
+      // style={{ backgroundImage: `url(${pricingPageBg.src})` }}
       >
         <div className="py-16 lg:py-20">
           <div className="container mx-auto px-4">
             <h2 className="text-3xl sm:text-4xl font-extrabold text-gray-900 text-center mb-8">
-              Explore Our Pricing Options
+              Embrace Your Glow with Our Affordable Packages
             </h2>
             <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3">
               <PagePricingCard enumList={TREATMENTSENUM} title="Skin Treatments" />

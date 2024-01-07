@@ -16,7 +16,7 @@ const PagePricingCard: React.FC<PricingCardProps> = ({ enumList, title }) => {
   return (
     <div className="relative border-t border-gray-300">
       <div className="p-6">
-        <h3 className="text-xl font-semibold text-gray-900">{title}</h3>
+        <h3 className="text-xl font-semibold text-gray-900 text-center">{title}</h3>
         {/* <div className="mt-6 flex items-center justify-center">
           <p className="text-3xl font-extrabold text-gray-900">
             {`$${enumList.reduce(
@@ -30,6 +30,12 @@ const PagePricingCard: React.FC<PricingCardProps> = ({ enumList, title }) => {
           <span className="text-gray-600 ml-2">Starting from</span>
         </div> */}
         <ul className="mt-6 space-y-2">
+          <li
+            className="flex items-center justify-between text-sm text-gray-600"
+          >
+            <span className="font-bold uppercase mb-6">Services</span>
+            <span className="font-bold uppercase mb-6">Price</span>
+          </li>
           {enumList.map((enumItem, index) => (
             <li
               key={index}
