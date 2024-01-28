@@ -62,10 +62,10 @@ const Testimonial = () => {
     <>
       <section className="bg-slate-200">
         <div className="container px-6 py-10 mx-auto">
-          <h1 className="text-3xl font-semibold text-center text-gray-800 capitalize lg:text-4xl dark:text-white">
+          <h1 className="text-3xl font-semibold text-center text-gray-800 capitalize lg:text-4xl">
             What our <span className="text-blue-500">clients</span> say
           </h1>
-          <p className="max-w-2xl mx-auto mt-6 text-center text-gray-600 dark:text-gray-300">
+          <p className="max-w-2xl mx-auto mt-6 text-center text-gray-600">
             Discover the beauty and transformation at our salon. We are dedicated to providing you with the best beauty services that leave you feeling confident and radiant. Our experienced team is committed to making every visit a delightful experience.
           </p>
 
@@ -89,7 +89,7 @@ const Testimonial = () => {
                         alt={testimonial.author}
                       /> */}
                       <div className="text-center">
-                        <h1 className="text-xl font-semibold text-gray-800 dark:text-white">{testimonial.author}</h1>
+                        <h1 className="text-xl font-semibold text-gray-800">{testimonial.author}</h1>
                       </div>
                     </div>
                   </div>

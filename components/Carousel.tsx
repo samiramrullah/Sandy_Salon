@@ -4,7 +4,6 @@ import img1 from '../public/assets/img1.jpg'
 import img2 from '../public/assets/img2.jpg'
 import img3 from '../public/assets/img3.jpg'
 import img4 from '../public/assets/img4.jpg'
-
 const Slideshow = () => {
     // Array of Images
     const slides = [
@@ -87,7 +86,7 @@ const Slideshow = () => {
                     >
                         {/* Add the transparent overlay */}
                         {/* <div className="absolute inset-0 bg-black opacity-50"></div> */}
-                        <h1 className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-center z-10 md:text-6xl text-4xl font-bold text-white">
+                        <h1 className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-center z-10 md:text-6xl text-4xl font-bold text-white ">
                             {slide.text}
                         </h1>
                     </div>

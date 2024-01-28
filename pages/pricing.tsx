@@ -4,7 +4,6 @@ import PagePricingCard from "@/components/PagePricingCard";
 import { TREATMENTSENUM, HAIRSTYLINGENUM, FULL_SERVICES, THREADINGENUM, HAIRCOLORINGENUM, FACIALSENUM } from "@/components/enums";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
-import pricingPageBg from '../public/assets/pricingpage.jpg';
 
 const Pricing: React.FC = () => {
   return (
@@ -12,7 +11,7 @@ const Pricing: React.FC = () => {
       <Navbar />
       <section
         className="min-h-screen bg-cover bg-no-repeat bg-center mt-11 mb-10"
-      // style={{ backgroundImage: `url(${pricingPageBg.src})` }}
+
       >
         <div className="py-16 lg:py-20">
           <div className="container mx-auto px-4">
@@ -20,12 +19,12 @@ const Pricing: React.FC = () => {
               Embrace Your Glow with Our Affordable Packages
             </h2>
             <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3">
-              <PagePricingCard enumList={TREATMENTSENUM} title="Skin Treatments" />
-              <PagePricingCard enumList={HAIRSTYLINGENUM} title="Hair Styling Services" />
-              <PagePricingCard enumList={FULL_SERVICES} title="Full Threading Services" />
-              <PagePricingCard enumList={THREADINGENUM} title="Threading Services" />
               <PagePricingCard enumList={HAIRCOLORINGENUM} title="Hair Coloring" />
+              <PagePricingCard enumList={HAIRSTYLINGENUM} title="Hair Styling Services" />
+              <PagePricingCard enumList={TREATMENTSENUM} title="Skin Treatments" />
+              <PagePricingCard enumList={THREADINGENUM} title="Threading Services" />
               <PagePricingCard enumList={FACIALSENUM} title="Facial Treatments" />
+              <PagePricingCard enumList={FULL_SERVICES} title="Full Threading Services" />
             </div>
           </div>
         </div>
