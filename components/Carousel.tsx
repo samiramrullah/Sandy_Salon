@@ -1,4 +1,5 @@
 import React from "react";
+import MovingComponent from 'react-moving-text'
 import { Zoom } from "react-slideshow-image";
 import img1 from '../public/assets/img1.jpg'
 import img2 from '../public/assets/img2.jpg'
@@ -86,9 +87,21 @@ const Slideshow = () => {
                     >
                         {/* Add the transparent overlay */}
                         {/* <div className="absolute inset-0 bg-black opacity-50"></div> */}
-                        <h1 className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-center z-10 md:text-6xl text-4xl font-bold text-white ">
+
+                        {/* <h1 className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-center z-10 md:text-6xl text-4xl font-bold text-white ">
                             {slide.text}
-                        </h1>
+                        </h1> */}
+                        <MovingComponent className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-center z-10 md:text-6xl text-4xl font-bold text-white"
+                            type="fadeInFromLeft"
+                            duration="120ms"
+                            delay="0s"
+                            direction="normal"
+                            timing="ease"
+                            iteration="5"
+                            fillMode="backwards">
+                           {slide.text}
+                        </MovingComponent>
+
                     </div>
                 ))}
             </Zoom>

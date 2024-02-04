@@ -206,7 +206,7 @@ const Contact = () => {
                                 </div>
                             </div>
                         </div>
-                        {/* <div className="w-full px-4 lg:w-1/2 xl:w-5/12">
+                        <div className="w-full px-4 lg:w-1/2 xl:w-5/12">
                             <div
                                 className="relative p-8 bg-white rounded-lg shadow-lg  sm:p-12"
                             >
@@ -226,7 +226,7 @@ const Contact = () => {
                                 ></iframe>
 
                             </div>
-                        </div> */}
+                        </div>
                     </div>
                 </div>
             </section>
