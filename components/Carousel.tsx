@@ -91,13 +91,13 @@ const Slideshow = () => {
                         {/* <h1 className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-center z-10 md:text-6xl text-4xl font-bold text-white ">
                             {slide.text}
                         </h1> */}
-                        <MovingComponent className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-center z-10 md:text-6xl text-4xl font-bold text-white"
+                        <MovingComponent className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-center z-10 md:text-6xl text-4xl font-bold text-white "
                             type="fadeInFromLeft"
-                            duration="120ms"
+                            duration="2000ms"
                             delay="0s"
-                            direction="normal"
+                            direction="alternate"
                             timing="ease"
-                            iteration="5"
+                            iteration="infinite"
                             fillMode="backwards">
                            {slide.text}
                         </MovingComponent>
