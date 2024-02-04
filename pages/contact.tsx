@@ -107,9 +107,9 @@ const Contact = () => {
                                 <p
                                     className="text-base leading-relaxed text-body-color  mb-9"
                                 >
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                                    eius tempor incididunt ut labore et dolore magna aliqua. Ut enim
-                                    adiqua minim veniam quis nostrud exercitation ullamco
+                                    At Sandy&apos;s Beauty Salon, we value your feedback and strive to provide the best experience for our clients.
+                                    We would love to hear from you! Whether you have questions, suggestions, or want to book an appointment, our friendly team is here to assist you.
+                                    Contact us today and let us help you achieve your desired look and enhance your natural beauty.
                                 </p>
                                 <div className="mb-8 flex w-full max-w-[370px]">
                                     <div
@@ -133,7 +133,8 @@ const Contact = () => {
                                             Our Location
                                         </h4>
                                         <p className="text-base text-body-color ">
-                                            99 S.t Jomblo Park Pekanbaru 28292. Indonesia
+                                            87 Heagney Cres
+                                            Chisholm ACT 2905, Australia
                                         </p>
                                     </div>
                                 </div>
@@ -174,7 +175,7 @@ const Contact = () => {
                                             Phone Number
                                         </h4>
                                         <p className="text-base text-body-color ">
-                                            (+62)81 414 257 9980
+                                            (+61) 406 316 099
                                         </p>
                                     </div>
                                 </div>
@@ -200,7 +201,9 @@ const Contact = () => {
                                             Email Address
                                         </h4>
                                         <p className="text-base text-body-color ">
-                                            info@yourdomain.com
+                                            <a href="mailto:info@beautysalon.com" className="block mt-2 text-sm text-gray-600 hover:underline">
+                                                info@beautysalon.com
+                                            </a>
                                         </p>
                                     </div>
                                 </div>
@@ -230,7 +233,7 @@ const Contact = () => {
                     </div>
                 </div>
             </section>
-           
+
             <Footer />
 
         </>

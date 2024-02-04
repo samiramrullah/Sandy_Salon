@@ -85,12 +85,6 @@ const Slideshow = () => {
                             backgroundSize: "cover", // Add this line to cover the entire element
                         }}
                     >
-                        {/* Add the transparent overlay */}
-                        {/* <div className="absolute inset-0 bg-black opacity-50"></div> */}
-
-                        {/* <h1 className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-center z-10 md:text-6xl text-4xl font-bold text-white ">
-                            {slide.text}
-                        </h1> */}
                         <MovingComponent className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-center z-10 md:text-6xl text-4xl font-bold text-white "
                             type="fadeInFromLeft"
                             duration="2000ms"
