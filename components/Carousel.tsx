@@ -1,5 +1,6 @@
 import React from "react";
-import MovingComponent from 'react-moving-text'
+// import MovingComponent from 'react-moving-text'
+import Typewriter from 'typewriter-effect';
 import { Zoom } from "react-slideshow-image";
 import img1 from '../public/assets/img1.jpg'
 import img2 from '../public/assets/img2.jpg'
@@ -81,11 +82,11 @@ const Slideshow = () => {
                         className="flex justify-center items-center w-screen h-screen relative bg-center shadow-lg rounded-lg"
                         style={{
                             backgroundImage: `url(${slide.image})`,
-                            borderRadius: "10px", // Adjust this value as needed
-                            backgroundSize: "cover", // Add this line to cover the entire element
+                            borderRadius: "10px",
+                            backgroundSize: "cover",
                         }}
                     >
-                        <MovingComponent className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-center z-10 md:text-6xl text-4xl font-bold text-white "
+                        {/* <MovingComponent className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-center z-10 md:text-6xl text-4xl font-bold text-white "
                             type="fadeInFromLeft"
                             duration="2000ms"
                             delay="0s"
@@ -94,9 +95,21 @@ const Slideshow = () => {
                             iteration="infinite"
                             fillMode="backwards">
                            {slide.text}
-                        </MovingComponent>
+                        </MovingComponent> */}
+                        <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-center z-10 md:text-6xl text-4xl font-bold text-white">
+                            <Typewriter
+                                key={index + 1}
+                                onInit={(typewriter) => {
+                                    typewriter.typeString(slide.text)
+                                        .pauseFor(100) 
+                                        .start();
+                                }}
+                            />
+                        </div>
+
 
                     </div>
+
                 ))}
             </Zoom>
         </div>
