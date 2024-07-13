@@ -216,7 +216,7 @@ export const HAIRSTYLINGENUM = [
   },
   {
     serviceName: "GHD Curls (from)",
-    price: "",
+    price: "45",
   },
 ];
 
