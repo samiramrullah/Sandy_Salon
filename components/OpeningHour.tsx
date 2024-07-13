@@ -13,11 +13,11 @@ const OpeningHour = () => {
   const openingHours = [
     { day: 'Sunday', hours: 'Closed' },
     { day: 'Monday', hours: 'Closed' },
-    { day: 'Tuesday', hours: '10:00 - 18:00' },
-    { day: 'Wednesday', hours: '11:00 - 20:00' },
-    { day: 'Thursday', hours: '10:00 - 18:00' },
-    { day: 'Friday', hours: '10:00 - 19:00' },
-    { day: 'Saturday', hours: '11:00 - 19:00' },
+    { day: 'Tuesday', hours: '4:PM - 7:PM' },
+    { day: 'Wednesday', hours: '4:PM - 7:PM' },
+    { day: 'Thursday', hours: '4:PM - 7:PM' },
+    { day: 'Friday', hours: '4:PM - 7:PM' },
+    { day: 'Saturday', hours: '10:AM - 7:PM' },
   ];
 
   return (
@@ -34,8 +34,10 @@ const OpeningHour = () => {
                 </li>
               ))}
             </ul>
+            <div className="text-center">
+              <p><strong>Note:</strong> Summer hours are from <b>10:00 AM to 8:00 PM </b></p>
+            </div>
           </div>
-
         </div>
       </div>
     </div>
