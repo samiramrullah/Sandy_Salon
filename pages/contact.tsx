@@ -175,7 +175,7 @@ const Contact = () => {
                                             Phone Number
                                         </h4>
                                         <p className="text-base text-body-color ">
-                                            (+61) 406 316 099
+                                            0431699411
                                         </p>
                                     </div>
                                 </div>
