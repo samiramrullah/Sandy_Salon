@@ -31,7 +31,7 @@ const PricingPreview = () => {
                     <div className="sm:items-center sm:justify-between">
                         <div>
                             <h2 className="text-2xl text-center font-bold text-gray-800 lg:text-3xl">
-                                Simple, Transparent Pricing
+                                Simple & Transparent Pricing
                             </h2>
                             {/* <p className="mt-4 text-center text-gray-800">No Contracts. No surprise fees.</p> */}
                         </div>
