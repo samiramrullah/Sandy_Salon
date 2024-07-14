@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 import IndexPricingCard from "./IndexPricingCard";
 import { HAIRCOLORINGHEROSECTIONENUM, TREATMENTSHEROSECTIONENUM, HAIRSTYLINGENUM } from "../components/enums";
 
+
 const PricingPreview = () => {
     const [isClient, setIsClient] = useState(false);
 
@@ -19,7 +20,7 @@ const PricingPreview = () => {
                         loop
                     >
                         <source
-                            src="https://cdn.shopify.com/videos/c/vp/806204b9eb8d435fbe44473476ad1a54/806204b9eb8d435fbe44473476ad1a54.HD-1080p-4.8Mbps-14240939.mp4"
+                            src="/assets/pricePreviewBackground.mp4"
                             type="video/mp4"
                         />
                         Sorry, your browser doesn support embedded videos.
