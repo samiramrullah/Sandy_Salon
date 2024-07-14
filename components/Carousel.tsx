@@ -27,7 +27,7 @@ const slides: Slide[] = [
   },
   {
     image: img4.src,
-    text: "Unlock Your Skin's Potential with Micro-Needling",
+    text: "Unleash Your Inner Style with Gorgeous Hairstyles and Captivating Colors",
   },
 ];
 
