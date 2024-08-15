@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import Navbar from '@/components/Navbar'
 import { useRouter } from 'next/router';
-import { FACIALSENUM, TREATMENTSENUM, HAIRSTYLINGENUM, HAIRCOLORINGENUM, THREADINGENUM, FULL_SERVICES } from '../../components/enums';
+import { THREADING_SERVICES,WAXING_SERVICES,FACIALS,TINTING_LIFTING,HAIR_MAKEUP_MORE,HAIR_STYLING,HAIR_COLOURING,TREATMENTS } from '../../components/enums';
 import { EnumItem } from '../../components/PagePricingCard'
 import Link from 'next/link';
 import Footer from '@/components/Footer';
@@ -13,22 +13,22 @@ const Pricelist = () => {
 
   useEffect(() => {
     if (query === "FACIALSENUM") {
-      setpricebyCategory(FACIALSENUM)
+      setpricebyCategory(FACIALS)
     }
     else if (query === "TREATMENTSENUM") {
-      setpricebyCategory(TREATMENTSENUM);
+      setpricebyCategory(TREATMENTS);
     }
     else if (query === "HAIRSTYLINGENUM") {
-      setpricebyCategory(HAIRSTYLINGENUM)
+      setpricebyCategory(HAIR_STYLING)
     }
     else if (query === "HAIRCOLORINGENUM") {
-      setpricebyCategory(HAIRCOLORINGENUM)
+      setpricebyCategory(HAIR_COLOURING)
     }
     else if (query === "THREADINGENUM") {
-      setpricebyCategory(THREADINGENUM)
+      setpricebyCategory(THREADING_SERVICES)
     }
     else if (query === "FULL_SERVICES") {
-      setpricebyCategory(FULL_SERVICES)
+      setpricebyCategory(TINTING_LIFTING)
     }
   }, [query])
   return (
