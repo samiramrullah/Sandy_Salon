@@ -5,7 +5,6 @@ import { HAIRCOLORINGHEROSECTIONENUM, TREATMENTSHEROSECTIONENUM, HAIRSTYLINGENUM
 
 const PricingPreview = () => {
     const [isClient, setIsClient] = useState(false);
-
     useEffect(() => {
         setIsClient(true);
     }, []);
@@ -42,7 +41,6 @@ const PricingPreview = () => {
                         <IndexPricingCard enumList={HAIRCOLORINGHEROSECTIONENUM} title="Hair Coloring" />
                         <IndexPricingCard enumList={HAIRSTYLINGENUM} title="Hair Treatment" />
                         <IndexPricingCard enumList={TREATMENTSHEROSECTIONENUM} title="Treatment Objects" />
-                       
                     </div>
                 </div>
             </section>
