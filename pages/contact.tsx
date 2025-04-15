@@ -57,8 +57,8 @@ const Contact = () => {
                                             Our Location
                                         </h4>
                                         <p className="text-base text-body-color ">
-                                            87 Heagney Cres
-                                            Chisholm ACT 2905, Australia
+                                        17 Hollitt St, Googong NSW 2620,
+                                        Australia
                                         </p>
                                     </div>
                                 </div>
