@@ -57,8 +57,8 @@ const Contact = () => {
                                             Our Location
                                         </h4>
                                         <p className="text-base text-body-color ">
-                                        17 Hollitt St, Googong NSW 2620,
-                                        Australia
+                                            87 Heagney Cres
+                                            Chisholm ACT 2905, Australia
                                         </p>
                                     </div>
                                 </div>
@@ -143,7 +143,7 @@ const Contact = () => {
                                 </p>
                                 <iframe
                                     title="Google Maps"
-                                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3250.9296411731716!2d149.2220778766144!3d-35.4317729017019!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6b1649bf2a9d70e3%3A0x217cb4dcc75945ce!2s17%20Hollitt%20St%2C%20Googong%20NSW%202620%2C%20Australia!5e0!3m2!1sen!2sin!4v1744700312705!5m2!1sen!2sin"
+                                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3251.235891691516!2d149.12151757664537!3d-35.424186101292676!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6b164aa0f67fe1f5%3A0x97b7f1250363dd1b!2s87%20Heagney%20Cres%2C%20Chisholm%20ACT%202905%2C%20Australia!5e0!3m2!1sen!2sin!4v1693063374444!5m2!1sen!2sin"
                                     width="100%"
                                     height="450"
                                     style={{ border: "0" }}
