@@ -6,6 +6,13 @@ export const THREADING_SERVICES = [
   { serviceName: "Lower Lip or extended Chin", price: "5" },
   { serviceName: "Forehead", price: "5" },
 ];
+export const SKIN_TREATMENTS = [
+  { serviceName: "Microblading (from)", price: "250" },
+  { serviceName: "B.B. Glow Treatments", price: "150" },
+  { serviceName: "Micro Needling", price: "150" },
+  { serviceName: "Hydra Facial", price: "150" },
+];
+
 
 export const WAXING_SERVICES = [
   { serviceName: "Full Face", price: "35" },
@@ -110,6 +117,19 @@ export const WAXING_SERVICES_Hero_section = [
 ];
 
 
+export const FACIAL_TREATMENTS = [
+  { serviceName: "Anti-Aging Facials", price: "65" },
+  { serviceName: "Skin Whitening Facials", price: "65" },
+  { serviceName: "Deep Cleanse Facials", price: "60" },
+  { serviceName: "Oxy Facials", price: "65" },
+  { serviceName: "Herbal Facials", price: "60" },
+  { serviceName: "Fruit Facials", price: "60" },
+  { serviceName: "Shahnaz Gold Facials", price: "65" },
+  { serviceName: "Hydrating Facials", price: "65" },
+  { serviceName: "Collagen Facials", price: "75" },
+  { serviceName: "Vitamin C Facials", price: "75" },
+  { serviceName: "Depigmentation Facial", price: "70" },
+];
 
 
 // Enums for hero page
