@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import Navbar from '@/components/Navbar'
 import { useRouter } from 'next/router';
-import { THREADING_SERVICES,WAXING_SERVICES,FACIALS,TINTING_LIFTING,HAIR_MAKEUP_MORE,HAIR_STYLING,HAIR_COLOURING,TREATMENTS } from '../../components/enums';
+import { THREADING_SERVICES,BB_GLOW_TREATMENTS,TINTING_LIFTING,HAIR_STYLING_SERVICES,HAIR_COLOURING,MICROBLADING_TREATMENTS ,MICRONEEDLING_TREATMENTS,HYDRAFACIAL_TREATMENTS,KERATIN_TREATMENTS,HAIR_EXTENSION_PRICING,HAIR_MAKEUP_PRICING,WAXING_SERVICES_Hero_section} from '../../components/enums';
 import { EnumItem } from '../../components/PagePricingCard'
 import Link from 'next/link';
 import Footer from '@/components/Footer';
@@ -12,14 +12,14 @@ const Pricelist = () => {
   const query = router.query.pricelist;
 
   useEffect(() => {
-    if (query === "FACIALSENUM") {
-      setpricebyCategory(FACIALS)
+    if (query === "bbglow") {
+      setpricebyCategory(BB_GLOW_TREATMENTS)
     }
-    else if (query === "TREATMENTSENUM") {
-      setpricebyCategory(TREATMENTS);
+    else if (query === "microblanding") {
+      setpricebyCategory(MICROBLADING_TREATMENTS);
     }
     else if (query === "HAIRSTYLINGENUM") {
-      setpricebyCategory(HAIR_STYLING)
+      setpricebyCategory(HAIR_STYLING_SERVICES)
     }
     else if (query === "HAIRCOLORINGENUM") {
       setpricebyCategory(HAIR_COLOURING)
@@ -30,6 +30,28 @@ const Pricelist = () => {
     else if (query === "FULL_SERVICES") {
       setpricebyCategory(TINTING_LIFTING)
     }
+    else if (query === "microneedling") {
+      setpricebyCategory(MICRONEEDLING_TREATMENTS)
+    }
+    else if (query === "facial") {
+      setpricebyCategory(HYDRAFACIAL_TREATMENTS)
+    }
+    else if (query === "Keratin") {
+      setpricebyCategory(KERATIN_TREATMENTS)
+    }
+    else if (query === "WeftHairExtensions") {
+      setpricebyCategory(HAIR_EXTENSION_PRICING)
+    }
+    else if (query === "hairandmakeup") {
+      setpricebyCategory(HAIR_MAKEUP_PRICING)
+    }
+    else if (query === "threadingservice") {
+      setpricebyCategory(THREADING_SERVICES)
+    }
+    else if (query === "waxing") {
+      setpricebyCategory(WAXING_SERVICES_Hero_section )
+    }
+    
   }, [query])
   return (
     <div  style={{ backgroundImage: `url(${priceBg.src})`,backgroundSize:'cover' }}>

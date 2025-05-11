@@ -14,7 +14,7 @@ const Contact = () => {
             </Head>
             <Navbar />
             <section
-                className="relative z-10 overflow-hidden  py-20 lg:py-[120px] " style={{ backgroundImage: `url(${contactBg.src})` }}
+                className="relative z-10 overflow-hidden p-10 py-20 lg:py-[120px] " style={{ backgroundImage: `url(${contactBg.src})` }}
             >
                 <div className="container mx-auto">
                     <div className="flex flex-wrap -mx-4 lg:justify-between">

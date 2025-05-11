@@ -35,7 +35,7 @@ const OpeningHour = () => {
               ))}
             </ul>
             <div className="text-center">
-              <p><strong>Note:</strong> Summer hours are from <b>Only via appointment </b></p>
+              <p><strong>Note:</strong> Summer hours are from <b>Only via appointment <i>No Walk In Please</i> </b></p>
             </div>
           </div>
         </div>

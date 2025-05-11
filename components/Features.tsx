@@ -18,7 +18,7 @@ const Features = () => {
                     <h2 className="mb-10 text-center text-2xl font-bold text-gray-800 md:mb-6 lg:text-3xl">Our Services</h2>
                 </div>
                 <div className="grid gap-4 sm:grid-cols-2 md:gap-6 lg:grid-cols-3 xl:grid-cols-3 xl:gap-8">
-                    <Link href={'/categoryprice/FACIALSENUM'} className="group relative flex h-48 flex-col overflow-hidden rounded-lg bg-gray-100 shadow-lg md:h-64 xl:h-96">
+                    <Link href={'/categoryprice/bbglow'} className="group relative flex h-48 flex-col overflow-hidden rounded-lg bg-gray-100 shadow-lg md:h-64 xl:h-96">
                         <Image src={bbGlowTreatment} alt="BB GlowTreatment" layout="fill" objectFit="cover" className="group-hover:scale-110" />
                         <div className="pointer-events-none absolute inset-0 bg-gradient-to-t from-gray-800 to-transparent md:via-transparent"></div>
                         <div className="relative mt-auto p-4">
@@ -26,7 +26,7 @@ const Features = () => {
                             <span className="font-semibold text-indigo-300">View Pricing</span>
                         </div>
                     </Link>
-                    <Link href={'/categoryprice/TREATMENTSENUM'} className="group relative flex h-48 flex-col overflow-hidden rounded-lg bg-gray-100 shadow-lg md:h-64 xl:h-96">
+                    <Link href={'/categoryprice/microblanding'} className="group relative flex h-48 flex-col overflow-hidden rounded-lg bg-gray-100 shadow-lg md:h-64 xl:h-96">
                         <Image src={microBlading} alt="MicroBlading" layout="fill" objectFit="cover" className="group-hover:scale-110" />
                         <div className="pointer-events-none absolute inset-0 bg-gradient-to-t from-gray-800 to-transparent md:via-transparent"></div>
                         <div className="relative mt-auto p-4">
@@ -36,7 +36,7 @@ const Features = () => {
                         </div>
                     </Link>
 
-                    <Link href={'/categoryprice/TREATMENTSENUM'} className="group relative flex h-48 flex-col overflow-hidden rounded-lg bg-gray-100 shadow-lg md:h-64 xl:h-96">
+                    <Link href={'/categoryprice/microneedling'} className="group relative flex h-48 flex-col overflow-hidden rounded-lg bg-gray-100 shadow-lg md:h-64 xl:h-96">
                         <Image src={microNeedling} alt="HydraFacial" layout="fill" objectFit="cover" className="group-hover:scale-110" />
                         <div className="pointer-events-none absolute inset-0 bg-gradient-to-t from-gray-800 to-transparent md:via-transparent"></div>
                         <div className="relative mt-auto p-4">
@@ -47,7 +47,7 @@ const Features = () => {
                     </Link>
 
 
-                    <Link href={'/categoryprice/FACIALSENUM'} className="group relative flex h-48 flex-col overflow-hidden rounded-lg bg-gray-100 shadow-lg md:h-64 xl:h-96">
+                    <Link href={'/categoryprice/facial'} className="group relative flex h-48 flex-col overflow-hidden rounded-lg bg-gray-100 shadow-lg md:h-64 xl:h-96">
                         <Image src={hydraFacial} alt="MicroNeedling" layout="fill" objectFit="cover" className="group-hover:scale-110" />
                         <div className="pointer-events-none absolute inset-0 bg-gradient-to-t from-gray-800 to-transparent md:via-transparent"></div>
                         <div className="relative mt-auto p-4">
@@ -59,7 +59,7 @@ const Features = () => {
 
 
 
-                    <Link href={'/categoryprice/HAIRSTYLINGENUM'} className="group relative flex h-48 flex-col overflow-hidden rounded-lg bg-gray-100 shadow-lg md:h-64 xl:h-96">
+                    <Link href={'/categoryprice/Keratin'} className="group relative flex h-48 flex-col overflow-hidden rounded-lg bg-gray-100 shadow-lg md:h-64 xl:h-96">
                         <Image src={keratinTreatment} alt="Keratin Treatment" layout="fill" objectFit="cover" className="group-hover:scale-110" />
                         <div className="pointer-events-none absolute inset-0 bg-gradient-to-t from-gray-800 to-transparent md:via-transparent"></div>
                         <div className="relative mt-auto p-4">
@@ -68,7 +68,7 @@ const Features = () => {
                             <span className="font-semibold text-indigo-300">View Pricing</span>
                         </div>
                     </Link>
-                    <Link href={'/categoryprice/HAIRCOLORINGENUM'} className="group relative flex h-48 flex-col overflow-hidden rounded-lg bg-gray-100 shadow-lg md:h-64 xl:h-96">
+                    <Link href={'/categoryprice/WeftHairExtensions'} className="group relative flex h-48 flex-col overflow-hidden rounded-lg bg-gray-100 shadow-lg md:h-64 xl:h-96">
                         <Image src={wefthairExtension} alt="Wefthair Extension" layout="fill" objectFit="cover" className="group-hover:scale-110" />
                         <div className="pointer-events-none absolute inset-0 bg-gradient-to-t from-gray-800 to-transparent md:via-transparent"></div>
                         <div className="relative mt-auto p-4">
@@ -78,7 +78,7 @@ const Features = () => {
                         </div>
                     </Link>
 
-                    <Link href={'/categoryprice/HAIRCOLORINGENUM'} className="group relative flex h-48 flex-col overflow-hidden rounded-lg bg-gray-100 shadow-lg md:h-64 xl:h-96">
+                    <Link href={'/categoryprice/hairandmakeup'} className="group relative flex h-48 flex-col overflow-hidden rounded-lg bg-gray-100 shadow-lg md:h-64 xl:h-96">
                         <Image src={hairMakeup} alt="Hair Makeup" layout="fill" objectFit="cover" className="group-hover:scale-110" />
                         <div className="pointer-events-none absolute inset-0 bg-gradient-to-t from-gray-800 to-transparent md:via-transparent"></div>
                         <div className="relative mt-auto p-4">
@@ -88,7 +88,7 @@ const Features = () => {
                         </div>
                     </Link>
 
-                    <Link href={'/categoryprice/THREADINGENUM'} className="group relative flex h-48 flex-col overflow-hidden rounded-lg bg-gray-100 shadow-lg md:h-64 xl:h-96">
+                    <Link href={'/categoryprice/threadingservice'} className="group relative flex h-48 flex-col overflow-hidden rounded-lg bg-gray-100 shadow-lg md:h-64 xl:h-96">
                         <Image src={threadingFeature} alt="Hair Makeup" layout="fill" objectFit="cover" className="group-hover:scale-110" />
                         <div className="pointer-events-none absolute inset-0 bg-gradient-to-t from-gray-800 to-transparent md:via-transparent"></div>
                         <div className="relative mt-auto p-4">
@@ -97,7 +97,7 @@ const Features = () => {
                             <span className="font-semibold text-indigo-300">View Pricing</span>
                         </div>
                     </Link>
-                    <Link href={'/categoryprice/FULL_SERVICES'} className="group relative flex h-48 flex-col overflow-hidden rounded-lg bg-gray-100 shadow-lg md:h-64 xl:h-96">
+                    <Link href={'/categoryprice/waxing'} className="group relative flex h-48 flex-col overflow-hidden rounded-lg bg-gray-100 shadow-lg md:h-64 xl:h-96">
                         <Image src={waxingImg} alt="Hair Makeup" layout="fill" objectFit="cover" className="group-hover:scale-110" />
                         <div className="pointer-events-none absolute inset-0 bg-gradient-to-t from-gray-800 to-transparent md:via-transparent"></div>
                         <div className="relative mt-auto p-4">
