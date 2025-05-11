@@ -99,7 +99,6 @@ export const HYDRAFACIAL_TREATMENTS = [
 export const KERATIN_TREATMENTS = [
   { serviceName: "Keratin Treatment (from)", price: "200" },
   {serviceName: "Permanent Straightening", price: "300"},
-  {serviceName: "Temp Straightening (from)", price: "35"},
   {serviceName: "Nanoplasty Treatment", price: "200"},
 ];
 export const HAIR_EXTENSION_PRICING = [

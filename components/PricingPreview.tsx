@@ -11,7 +11,7 @@ const PricingPreview = () => {
     return (
         <>
             <section className="relative">
-                {isClient && ( // Only render the video on the client-side
+                {isClient && ( 
                     <video
                         className="absolute top-0 left-0 w-full h-full object-cover opacity-40"
                         autoPlay
@@ -39,8 +39,8 @@ const PricingPreview = () => {
 
                     <div className="grid mt-16 -mx-6 sm:gap-8 grid-cols-1 md:grid-cols-3">
                         <IndexPricingCard enumList={HAIRCOLORINGHEROSECTIONENUM} title="Hair Styling & Coloring" />
-                        <IndexPricingCard enumList={HAIRSTYLINGENUM} title="Hair Treatment" />
-                        <IndexPricingCard enumList={TREATMENTSHEROSECTIONENUM} title="Treatment Objects" />
+                        <IndexPricingCard enumList={HAIRSTYLINGENUM} title="Treatments" />
+                        <IndexPricingCard enumList={TREATMENTSHEROSECTIONENUM} title="Threading / Waxing / Make Up" />
                     </div>
                 </div>
             </section>
