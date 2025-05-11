@@ -147,7 +147,7 @@ export const HAIRCOLORINGHEROSECTIONENUM = [
   { serviceName: "Ladies Cut (from)", price: "45" },
   { serviceName: "Men’s Cut (from)", price: "20" },
   { serviceName: "Shampoo & Dry Off", price: "20" },
-  { serviceName: "Blow-Dry (from)", price: "30" },
+  { serviceName: "Blow-Dry (from)", price: "40" },
   { serviceName: "Temp Straightening (from) without blow dry", price: "40" },
   { serviceName: "GHD Curls (from)", price: "45" },
   { serviceName: "Henna Application (from)", price: "40" },
@@ -158,7 +158,7 @@ export const HAIRCOLORINGHEROSECTIONENUM = [
 
 export const TREATMENTSHEROSECTIONENUM = [
   { serviceName: "Eyebrow Threading", price: "15" },
-  { serviceName: "Full Face Threading", price: "30" },
+  { serviceName: "Full Face Threading", price: "50" },
   { serviceName: "Full Arm Wax", price: "30" },
   { serviceName: "Under Arm Wax", price: "15" },
   { serviceName: "Full Leg Wax", price: "50" },
