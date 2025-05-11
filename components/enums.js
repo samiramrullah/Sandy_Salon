@@ -56,12 +56,12 @@ export const FULL_HAIR_MAKEUP_SERVICES = [
 
 export const HAIR_STYLING_SERVICES = [
   { serviceName: "Ladies Cut (from)", price: "45" },
-  { serviceName: "Men's Cut (from)", price: "20" },
+  { serviceName: "Men's Cut (from)", price: "25" },
   { serviceName: "Kids Cut (from)", price: "20" },
   { serviceName: "Shampoo & Dry Off", price: "20" },
   { serviceName: "Short Blow-Dry (from)", price: "25" },
   { serviceName: "Long Blow-Dry (from)", price: "35" },
-  { serviceName: "Straightening (from)", price: "35" },
+  { serviceName: "Temp Straightening (from) without blow dry", price: "40" },
   { serviceName: "GHD Curls (from)", price: "45" },
   { serviceName: "Colour full Braids", price: "60" },
 ];
