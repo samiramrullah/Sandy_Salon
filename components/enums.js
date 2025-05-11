@@ -164,9 +164,9 @@ export const TREATMENTSHEROSECTIONENUM = [
   { serviceName: "Full Leg Wax", price: "50" },
   { serviceName: "Full Bikini Wax", price: "50" },
   { serviceName: "Full Body Wax (from)", price: "160" },
-  { serviceName: "Formal Hair & Makeup", price: "140" },
-  { serviceName: "Bridal Hair & Makeup", price: "160" },
-  { serviceName: "Formal Makeup", price: "60" },
+  { serviceName: "Formal Hair & Makeup (from)", price: "140" },
+  { serviceName: "Bridal Hair & Makeup (from)", price: "160" },
+  { serviceName: "Formal Makeup (from)", price: "60" },
 ];
 
 export const HAIRSTYLINGENUM = [
