@@ -32,7 +32,7 @@ const Contact = () => {
                                     className="text-base leading-relaxed text-body-color  mb-9"
                                 >
                                     At Sandy&apos;s Beauty Salon, I value your feedback and strive to provide the best experience for my clients.
-                                    I would love to hear from you! Whether you have questions, suggestions, or want to book an appointment, I&apos;sm here to assist you.
+                                    I would love to hear from you! Whether you have questions, suggestions, or want to book an appointment, I&apos;m here to assist you.
                                     Contact me today and let me help you achieve your desired look and enhance your natural beauty..
                                 </p>
                                 <div className="mb-8 flex w-full max-w-[370px]">

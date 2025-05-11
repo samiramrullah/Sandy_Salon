@@ -109,8 +109,8 @@ export const HAIR_EXTENSION_PRICING = [
 
 export const HAIR_MAKEUP_PRICING = [
   { serviceName: "Formal Hair (from)", price: "65" },
-  { serviceName: "Formal Make-up", price: "60" },
-  { serviceName: "Formal Hair & Make-up", price: "140" },
+  { serviceName: "Formal Make-up (from)", price: "60" },
+  { serviceName: "Formal Hair & Make-up (from)", price: "140" },
   { serviceName: "Bridal Make-up (from)", price: "80" },
   { serviceName: "Bridal Hair & Make-up (from)", price: "160" },
 ];
@@ -127,8 +127,6 @@ export const WAXING_SERVICES_Hero_section = [
   { serviceName: "Bikini Line Wax", price: "15" },
   { serviceName: "Full Body Wax (from)", price: "160" },
 ];
-
-
 export const FACIAL_TREATMENTS = [
   { serviceName: "Anti-Aging Facials", price: "65" },
   { serviceName: "Skin Whitening Facials", price: "65" },
