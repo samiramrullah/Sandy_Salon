@@ -74,7 +74,6 @@ export const HAIR_COLOURING = [
   { serviceName: "T-Section Foil incl Tonner (from)", price: "90" },
   { serviceName: "Half Head Foils incl Tonner (from)", price: "130" },
   { serviceName: "Full Head Foils (from)", price: "180" },
-  { serviceName: "Permanent Colour (from)", price: "70" },
   { serviceName: "Semi-permanent Colour (from)", price: "60" },
   { serviceName: "Toner (from)", price: "40" },
 ];
