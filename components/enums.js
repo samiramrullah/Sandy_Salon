@@ -45,9 +45,9 @@ export const TINTING_LIFTING = [
 
 export const FULL_HAIR_MAKEUP_SERVICES = [
   { serviceName: "Formal Hair (from)", price: "65" },
-  { serviceName: "Formal Make-up", price: "60" },
-  { serviceName: "Formal Hair & Make-up", price: "140" },
-  { serviceName: "Bridal Make-up (from)", price: "80" },
+  { serviceName: "Formal Make-up (from)", price: "60" },
+  { serviceName: "Formal Hair & Make-up (from)", price: "140" },
+  { serviceName: "Bridal Make-up (from) (from)", price: "80" },
   { serviceName: "Bridal Hair & Make-up (from)", price: "160" },
   { serviceName: "Weft Hair Extension - 2 Rows", price: "350" },
   { serviceName: "Weft Hair Extension - 3 Rows", price: "450" },
