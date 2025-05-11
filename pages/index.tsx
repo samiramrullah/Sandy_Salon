@@ -10,8 +10,6 @@ import "../node_modules/react-slideshow-image/dist/styles.css";
 import '../node_modules/slick-carousel/slick/slick.css'
 import '../node_modules/slick-carousel/slick/slick-theme.css'
 
-
-
 const index = () => {
   return (
     <>

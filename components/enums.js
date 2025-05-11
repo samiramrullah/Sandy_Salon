@@ -76,6 +76,7 @@ export const HAIR_COLOURING = [
   { serviceName: "Full Head Foils (from)", price: "180" },
   { serviceName: "Permanent Colour (from)", price: "70" },
   { serviceName: "Semi-permanent Colour (from)", price: "60" },
+  { serviceName: "Toner (from)", price: "40" },
 ];
 
 export const MICROBLADING_TREATMENTS = [
