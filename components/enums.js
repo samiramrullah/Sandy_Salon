@@ -121,7 +121,7 @@ export const WAXING_SERVICES_Hero_section = [
   { serviceName: "Full Legs Wax", price: "45" },
   { serviceName: "Half Legs Wax", price: "30" },
   { serviceName: "Back or Front Wax", price: "35" },
-  { serviceName: "G-String Wax", price: "28" },
+  { serviceName: "G-String Wax", price: "30" },
   { serviceName: "Full Bikini Wax", price: "45" },
   { serviceName: "Bikini Line Wax", price: "15" },
   { serviceName: "Full Body Wax (from)", price: "160" },
