@@ -11,7 +11,7 @@ export const colorStyle = `rgba(${redValue}, ${greenValue}, ${blueValue}, ${alph
 
 const OpeningHour = () => {
   const openingHours = [
-    { day: 'Sunday', hours: 'Closed' },
+    { day: 'Sunday', hours: '10:AM - 7:PM' },
     { day: 'Monday', hours: 'Closed' },
     { day: 'Tuesday', hours: '4:PM - 7:PM' },
     { day: 'Wednesday', hours: '4:PM - 7:PM' },
@@ -35,7 +35,7 @@ const OpeningHour = () => {
               ))}
             </ul>
             <div className="text-center">
-              <p><strong>Note:</strong> Summer hours are from <b>10:00 AM to 8:00 PM </b></p>
+              <p><strong>Note:</strong> Summer hours are from <b>Only via appointment </b></p>
             </div>
           </div>
         </div>
