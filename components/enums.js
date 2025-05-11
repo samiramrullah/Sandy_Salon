@@ -67,7 +67,7 @@ export const HAIR_STYLING_SERVICES = [
 ];
 export const HAIR_COLOURING = [
   { serviceName: "Henna Application (from)", price: "40" },
-  { serviceName: "Wash Extra", price: "5" },
+  { serviceName: "Wash Extra", price: "15" },
   { serviceName: "Full Colour Short Hair (from)", price: "75" },
   { serviceName: "Full Colour Long Hair (from)", price: "90" },
   { serviceName: "Re-growth (from)", price: "60" },
