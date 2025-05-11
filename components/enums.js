@@ -148,7 +148,7 @@ export const HAIRCOLORINGHEROSECTIONENUM = [
   { serviceName: "Men’s Cut (from)", price: "20" },
   { serviceName: "Shampoo & Dry Off", price: "20" },
   { serviceName: "Blow-Dry (from)", price: "30" },
-  { serviceName: "Temp Straightening (from)", price: "40" },
+  { serviceName: "Temp Straightening (from) without blow dry", price: "40" },
   { serviceName: "GHD Curls (from)", price: "45" },
   { serviceName: "Henna Application (from)", price: "40" },
   { serviceName: "Re-Growth (from)", price: "60" },
