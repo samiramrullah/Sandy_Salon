@@ -98,6 +98,13 @@ const Slideshow: React.FC = () => {
               }}
             >
               <div className={styles.container}>
+                {/* 👇 Marquee scrolling text above main text */}
+                <div className={styles.marqueeWrapper}>
+                  <p className={styles.marqueeText}
+                  style={{color:'red',fontSize:50}}
+                  >MOVING SOON AT HOLLITT STREET GOOGONG NSW</p>
+                </div>
+
                 <h1 className={styles.animatedTextLeft}>{restOfText}</h1>
                 <p className={styles.animatedTextRight}>{lastWord}</p>
               </div>

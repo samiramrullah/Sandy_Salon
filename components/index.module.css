@@ -42,3 +42,30 @@
     transform: translateX(0);
   }
 }
+
+
+
+.marqueeWrapper {
+  width: 100%;
+  overflow: hidden;
+  margin-bottom: 1rem;
+}
+
+.marqueeText {
+  display: inline-block;
+  white-space: nowrap;
+  font-weight: 600;
+  color: white;
+  font-size: 1rem;
+  animation: marquee 10s linear infinite;
+}
+
+
+@keyframes marquee {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}

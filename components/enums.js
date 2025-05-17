@@ -15,7 +15,7 @@ export const SKIN_TREATMENTS = [
 
 
 export const WAXING_SERVICES = [
-  { serviceName: "Full Face", price: "35" },
+  { serviceName: "Full Face", price: "50" },
   { serviceName: "Full Arm", price: "45" },
   { serviceName: "Half Arm", price: "30" },
   { serviceName: "Under Arm", price: "15" },
@@ -145,7 +145,7 @@ export const FACIAL_TREATMENTS = [
 
 export const HAIRCOLORINGHEROSECTIONENUM = [
   { serviceName: "Ladies Cut (from)", price: "45" },
-  { serviceName: "Men’s Cut (from)", price: "20" },
+  { serviceName: "Men’s Cut (from)", price: "25" },
   { serviceName: "Shampoo & Dry Off", price: "20" },
   { serviceName: "Blow-Dry (from)", price: "40" },
   { serviceName: "Temp Straightening (from) without blow dry", price: "40" },
