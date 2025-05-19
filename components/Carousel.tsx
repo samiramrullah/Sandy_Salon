@@ -84,6 +84,7 @@ const Slideshow: React.FC = () => {
 
   return (
     <div className="w-full h-screen relative">
+      
       <Zoom {...zoomInProperties}>
         {slides.map((slide, index) => {
           const { restOfText, lastWord } = getSlideText(slide.text);
@@ -99,7 +100,7 @@ const Slideshow: React.FC = () => {
             >
               <div className={styles.container}>
                 {/* 👇 Marquee scrolling text above main text */}
-                <div className={styles.marqueeWrapper}>
+                <div className={styles.marqueeWrapper} style={{paddingBottom:150}}>
                   <p className={styles.marqueeText}
                   style={{color:'red',fontSize:50}}
                   >MOVING SOON AT HOLLITT STREET GOOGONG NSW</p>
