@@ -35,7 +35,7 @@ const OpeningHour = () => {
               ))}
             </ul>
             <div className="text-center">
-             <p><strong>Note:</strong><b> Only via appointment, &quot;No walk in Please&quot;</b></p>
+             <p><strong>Note:</strong><b> Appointments are required. We kindly request you book ahead as we are unable to accommodate walk-ins.</b></p>
             </div>
           </div>
         </div>
