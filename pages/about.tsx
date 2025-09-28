@@ -45,7 +45,7 @@ const about = () => {
                 <h1 className="mt-2 text-3xl font-black text-gray-700 md:text-5xl ">About Us</h1>
               </div>
               <p className="mb-6 text-base leading-7 text-gray-500 ">
-                Sandy Beauty Salon is dedicated to providing exceptional hair and beauty services to our valued clients. With over 12 years of experience in the industry, we are skilled in creating stunning hairstyles and enhancing natural beauty. Our salon is a haven for busy individuals who rely on our expertise and education to help them look and feel their best.
+                Sandy Beauty Salon is dedicated to providing exceptional hair and beauty services to our valued clients. With over 14 years of experience in the industry, we are skilled in creating stunning hairstyles and enhancing natural beauty. Our salon is a haven for busy individuals who rely on our expertise and education to help them look and feel their best.
               </p>
               <Link
                 href="/contact"
