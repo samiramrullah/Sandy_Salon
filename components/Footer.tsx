@@ -62,7 +62,7 @@ const Footer = () => {
         </div>
         <hr className="h-px my-6 bg-gray-200 border-none " />
         <div>
-          <p className="text-center text-gray-500 ">© Beauty Salon 2025 - All rights reserved</p>
+          <p className="text-center text-gray-500 ">© Beauty Salon 2023 - All rights reserved</p>
         </div>
       </div>
     </footer>
