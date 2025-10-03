@@ -10,14 +10,7 @@ import hairMakeup from '../public/assets/hair and make up services.jpg';
 import Head from 'next/head';
 import Footer from '@/components/Footer';
 import Navbar from '@/components/Navbar';
-// import { StaticImageData } from 'next/image';
 
-// interface Benefit {
-//     Title: string;
-//     description: string;
-//     image: StaticImageData;
-//     benefits: string[];
-// }
 
 const ServicesList = [
     {
@@ -131,7 +124,7 @@ const Services = () => {
             </Head>
             <Navbar/>
 
-            <div className=''>
+            <div className='flex justify-center items-center flex-col px-4 sm:px-6 md:px-10"'>
                 {ServicesList?.map((treatment, index) => (
                     <ServiceCard
                         key={index}

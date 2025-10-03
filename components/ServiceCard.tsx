@@ -11,7 +11,7 @@ interface ServiceCardProps {
 }
 
 const ServiceCard: React.FC<ServiceCardProps> = ({ imageSrc, title, description, num, reverse, benefits }) => {
-  const containerClasses = `bg-gray-100 py-20 ${reverse ? 'flex-row-reverse' : 'flex-row'}`;
+  const containerClasses = ` py-20 ${reverse ? 'flex-row-reverse' : 'flex-row'}`;
   const imageContainerClasses = `md:order-${reverse ? '2' : '1'}`;
   const textContainerClasses = `md:order-${reverse ? '1' : '2'}`;
   return (
