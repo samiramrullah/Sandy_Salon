@@ -102,7 +102,7 @@ const Slideshow: React.FC = () => {
                 <div className={styles.marqueeWrapper} style={{paddingBottom:250}}>
                   <p className={styles.marqueeText}
                   style={{color:'red',fontSize:50}}
-                  >MOVING SOON AT HOLLITT STREET GOOGONG NSW</p>
+                  >Reopening soon at Hollitt Street, Googong NSW.</p>
                 </div>
                 {/* 👇 Marquee scrolling text above main text */}
 

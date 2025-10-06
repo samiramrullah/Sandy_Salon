@@ -1,7 +1,7 @@
 // pages/pricing.tsx
 import React from "react";
 import PagePricingCard from "@/components/PagePricingCard";
-import { THREADING_SERVICES,WAXING_SERVICES,FACIAL_TREATMENTS,TINTING_LIFTING,FULL_HAIR_MAKEUP_SERVICES,HAIR_STYLING_SERVICES,HAIR_COLOURING,SKIN_TREATMENTS,HAIR_TREATMENTS,} from "@/components/enums";
+import { THREADING_SERVICES, WAXING_SERVICES, FACIAL_TREATMENTS, TINTING_LIFTING, FULL_HAIR_MAKEUP_SERVICES, HAIR_STYLING_SERVICES, HAIR_COLOURING, SKIN_TREATMENTS, HAIR_TREATMENTS, } from "@/components/enums";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 
@@ -23,13 +23,22 @@ const Pricing: React.FC = () => {
               <PagePricingCard enumList={HAIR_COLOURING} title="Hair Coloring" />
               <PagePricingCard enumList={HAIR_STYLING_SERVICES} title="Hair Styling Services" />
               <PagePricingCard enumList={FULL_HAIR_MAKEUP_SERVICES} title="Full Hair & Makeup Services " />
-              <PagePricingCard enumList={HAIR_TREATMENTS} title="Hair Treatment"/>
+              <PagePricingCard enumList={HAIR_TREATMENTS} title="Hair Treatment" />
               <PagePricingCard enumList={THREADING_SERVICES} title="Threading Services" />
-              <PagePricingCard enumList={TINTING_LIFTING} title="Tiniting & Lifting"/>
+              <PagePricingCard enumList={TINTING_LIFTING} title="Tiniting & Lifting" />
               <PagePricingCard enumList={SKIN_TREATMENTS} title="Skin Treatments" />
             </div>
           </div>
         </div>
+        <div className="flex items-center justify-center">
+  <div className="  p-6 rounded-lg">
+    Please note: All prices are subject to change without prior notice.
+  </div>
+</div>
+
+        {/* <div className="mx-auto w-1/2  p-4">
+          
+        </div> */}
       </section>
       <Footer />
     </>
